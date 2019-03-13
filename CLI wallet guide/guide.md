@@ -19,7 +19,8 @@ The general structure of a wallet is:
 
 #### wallet > account > address
 
-meaning that a wallet can contain many accounts and each account can contain many addresses. The wallet starts out with one account with one address on it. Let's make more.
+meaning that a wallet can contain many accounts and each account can contain many addresses. In reality, there are only subaddresses but we can group subaddresses together to make "accounts"- purely for presentational purposes. 
+The wallet starts out with one account with one address on it. Let's make more.
 
 First, a new account within our wallet:
 
@@ -83,11 +84,37 @@ in a new terminal window:
 `./masari-wallet-cli --restore-deterministic-wallet <wallet name>`
 
 Importing with the view key will generate a *view-only* wallet, which we can not spend from. A view-only wallet also does not
-show transactions **out**, but only transactions **in**. For that reason, the balance reflected in a view-only wallet may be
-inaccurate, since any transactions out have not been substracted from the balance.
+show transactions **out**, but only transactions **in**. This includes change from spent outputs, and for these reasons the balance shown in a view-only wallet may be inaccurate. To prove a wallet's balance at a certain block height, check the next section, "Proving balance".
 
 Importing a wallet via spend key or mnemonic phrase will give us full access to the wallet, including the ability to spend the
 funds on that wallet. This is why spend key and mnemonic phrase must be kept secure at all times!
+
+### Proving balance
+
+If we want to prove our balance to a third party without giving them the ability to spend those funds, we need to give them 3 pieces of information:
+
+* wallet address
+
+* private viewkey
+
+* key image
+
+Getting the address and viewkey can be done with the commands `address` and `viewkey` (we will want the secret viewkey). 
+
+Note: the viewkey is the same for all addresses across the entire wallet.
+
+Then we will want to generate the key image with `export_key_images <any name for the file>`. This creates a file in the working directory that, when used with a wallet address and viewkey, displays the wallet's spent and unspent balance at the blockchain height that the key image was generated. Next we will give those 3 pieces of information to the third party. 
+
+In order to verify our wallet's balance at the specified height, the third party will create a view-only wallet using our wallet address and viewkey. After the view-only wallet is synched, the third party will do:
+
+`import_key_images <name of file>`
+
+and the output should be
+
+    Signed key images imported to height <height>, <amount> spent, <amount> unspent
+    
+The unspent amount is proof of our balance at the specified blockchain height. Transaction amounts in and out, as well as their corresponding txid, can also be viewed at this point by the third party.
+
 
 ### Sending
 
