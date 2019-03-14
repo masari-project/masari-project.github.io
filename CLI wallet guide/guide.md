@@ -1,4 +1,4 @@
-# Guide to CLI wallet
+# CLI wallet guide
 ## Based on Masari v0.3
 
 ### Basics
@@ -19,7 +19,7 @@ The general structure of a wallet is:
 
 #### wallet > account > address
 
-meaning that a wallet can contain many accounts and each account can contain many addresses. In reality, there are only subaddresses but we can group subaddresses together to make "accounts"- purely for presentational purposes. 
+meaning that a wallet can contain many (2^32- over 4 billion) accounts, each with 2^32 subaddresses. In reality there are only subaddresses, but we can group subaddresses together to make "accounts"- purely for presentational purposes. 
 The wallet starts out with one account with one address on it. Let's make more.
 
 First, a new account within our wallet:
