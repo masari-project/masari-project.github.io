@@ -3,6 +3,12 @@
 
 ### Basics
 
+Open a terminal and navigate to the folder where you extracted the download of the CLI wallet into, in this case it's
+
+`cd /home/fire/masari-linux-x64-v0.3.0.0`
+
+and start the daemon with `./masarid`.
+
 ![synced](https://github.com/Satori-Nakamoto/simplewallet-guide/blob/master/synced.png)
 
 After the daemon is synced, open a new terminal tab with Ctrl + Shift + t. Start the CLI wallet with:
