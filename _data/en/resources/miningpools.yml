@@ -1,0 +1,4 @@
+name: "Mining Pools"
+url: "https://miningpoolstats.stream/masari"
+icon: "miningpools.png"
+order: 5

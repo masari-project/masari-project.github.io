@@ -1,0 +1,7 @@
+quarter: "4"
+year: "2017"
+title: "WHM Difficulty Algorithm"
+desc: "A necessary update implementing one of the best known algorithms in order to mitigate flash mining issues as a new altcoin, with a <a href='https://github.com/monero-project/monero/pull/2887' target='_blank'>pull request</a> made upstream as a contribution back to Monero."
+alignment: "left"
+order: 1
+complete: "true"

@@ -1,0 +1,7 @@
+quarter: "2"
+year: "2018"
+title: "CryptoNight-Fast PoW"
+desc: "We've created our own CN variant in order to further secure against malicious network attacks, while being more stable and CPU friendly."
+alignment: "right"
+order: 4
+complete: "true"
