@@ -1,0 +1,7 @@
+quarter: "1"
+year: "2018"
+title: "Multi-Sig & Subaddress Support"
+desc: "Both upstream features. Multi-sig will allow for trustless off-chain transactions that would otherwise require a counterparty. Subaddresses allow a single Masari private key to issue multiple subaddresses, expanding beyond payment IDs."
+alignment: "left"
+order: 3
+complete: "true"

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ site.coin }} - {{ page.title | liquify }}</title>
+	<meta name="description" content="{% if page.description %}{{ page.description | liquify }}{% else %}{% t seo.main.desc %}{% endif %}">
+	<meta name="keywords" content="{% t seo.keywords %}" />
+	<meta name="google-site-verification" content="IJ9mTfeAp1TMjj7MNWUBBtjnLbdzoO2OkgUT-UwM3SU" />
+	<meta name="author" content="{% t seo.author %}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#545454">
+	<meta name="msapplication-TileColor" content="#545454">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="shortcut icon" href="/img/favicons/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/animate.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+
+{% include header.html %}
+
+<div id="top-area">
+	<div class="container">
+		<div class="table">
+			<div class="header-text">
+				<div class="flex-row">
+					<div class="col-md-12 text-center">
+						<h1 class="light white">{{ page.title | liquify }} </h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{{ content }}
+
+{% include footer.html %}
+
+</body>
+</html>

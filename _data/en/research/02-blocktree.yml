@@ -1,0 +1,4 @@
+title: "CryptoNote Blocktree: Partially Asynchronous Metablock Consensus"
+abstract: "One of the biggest problems to Blockchain scalability is block size, where too large a block will have propagation time and centralization concerns, while one too small will cause a network's failure to converge on a main chain. In practice, one can argue a lower bound of approximately 15 seconds, given proper management of orphaned blocks and a small upper bound on block size [1]. Therefore, in order to increase transaction throughput while maintaining the secure concept of a Proof of Work (PoW) block in a permissionless decentralized network, one must be able to mine multiple blocks in parallel. This paper proposes Blocktree, a tree-partitioned structure that would fundamentally extend that of the Blockchain's linear nature."
+url: "https://docs.google.com/viewer?url=https://github.com/masari-project/research-corner/raw/master/blocktree/blocktree.pdf"
+order: 3
