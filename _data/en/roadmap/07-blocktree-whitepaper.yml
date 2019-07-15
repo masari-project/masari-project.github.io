@@ -4,4 +4,4 @@ title: "Blocktree Whitepaper"
 desc: "Pending further research, this investigates PoW sharding potential of the CryptoNote protocol by taking advantage of one-time public key outputs to partition/shard the transactions into a scalable blocktree."
 alignment: "right"
 order: 8
-complete:
+complete: "true"
