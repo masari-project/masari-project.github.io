@@ -116,7 +116,7 @@ header {
 	width: 100%;
 	color: white;
 	background: rgba(28, 36, 65, 0.93);
-	background: url('../img/header.jpg') center;
+	background: url('../images/header.jpg') center;
 	background-size: cover;
 }
 
@@ -484,7 +484,7 @@ footer .social-footer li:hover a {
 	position: relative;
 	padding: 45px 30px;
 	text-align: center;
-	background: url('../img/popup.jpg');
+	background: url('../images/popup.jpg');
 	box-shadow: none;
 	border-radius: 2px;
 }
@@ -1046,7 +1046,7 @@ footer h3 {
 	width: 100%;
 	color: white;
 	background: rgba(28, 36, 65, 0.93);
-	background: url('../img/header.jpg') center;
+	background: url('../images/header.jpg') center;
 	background-size: cover;
 	padding-top:20vh;
 }
