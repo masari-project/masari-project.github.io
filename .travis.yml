@@ -13,7 +13,7 @@ script: "./scripts/travis"
 # branch whitelist, only for GitHub Pages
 branches:
   only:
-  - master
+  - development
 
 env:
   global:
@@ -28,4 +28,4 @@ deploy:
   local_dir: _site/  # deploy this directory containing final build
   github_token: $GITHUB_API_KEY # Set in travis-ci.org dashboard
   on:
-    branch: master 
+    branch: development 
