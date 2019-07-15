@@ -26,3 +26,4 @@ social:
   bitcointalk:
     name: "Bitcoin Talk"
     url: "https://bitcointalk.org/index.php?topic=2159114"
+theme: jekyll-theme-minimal
