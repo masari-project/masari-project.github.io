@@ -1,7 +1,0 @@
-quarter:
-year:
-title: "I/O bound PoW"
-desc: "Our current CryptoNight-Fast variant (as all others) is only temporary. Inspired by Cuckoo Cycles, alternative approaches are to be looked into that are I/O bound, evening the playing field for miners from mobile devices to ASICs, allowing for an eco-friendly yet secure network."
-alignment: "left"
-order: 13
-complete:

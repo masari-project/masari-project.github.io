@@ -1,7 +1,0 @@
-quarter: "4"
-year: "2017"
-title: "GUI Wallet"
-desc: "A new and easy to use GUI wallet was intended to be available, but time constraints pushed instead for porting one over from Monero for use while this initiative is merged with the mobile wallet goal."
-alignment: "right"
-order: 2
-complete: "true"

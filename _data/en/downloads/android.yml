@@ -1,8 +1,0 @@
-system: "Android"
-releases:
-- type: "Play Store"
-  version: "1.1.1"
-  codename: "Mobile Wallet"
-  url: "https://play.google.com/store/apps/details?id=org.masari.wallet&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-  sha256: 
-order: 4
