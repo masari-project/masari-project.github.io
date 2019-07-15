@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Masari - User Guides</title>
+	<meta name="description" content="User written guides for the Masari community. These guides helpyou learn how to use the Masari software (as well as how to use Monero).">
+	<meta name="keywords" content="masari, monero, crypto, cryptocurrency, blockchain, private money, hidden cash" />
+	<meta name="google-site-verification" content="IJ9mTfeAp1TMjj7MNWUBBtjnLbdzoO2OkgUT-UwM3SU" />
+	<meta name="author" content="Masari Community" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#545454">
+	<meta name="msapplication-TileColor" content="#545454">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="shortcut icon" href="/img/favicons/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/animate.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+
+<div class="preloader">
+	<img src="/img/loader.gif" alt="Preloader image">
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+	<div class="container">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			Menu
+			<i class="fa fa-bars"></i>
+		</button>
+		<a class="navbar-brand js-scroll-trigger" href="/#home"><img class="navbar-logo" src="/img/logo.png" data-active-url="/img/logo.png" alt="Masari Cryptocurrency"></a>
+		<span class="navbar-logo-text"><a href="/#home">masari</a></span>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					
+					<a href="/#home">Home</a>
+					
+				</li>
+				<li class="nav-item">
+					
+					<a href="/#about">About</a>
+					
+				</li>
+				<li class="nav-item">
+					
+					<a href="/#roadmap">Roadmap</a>
+					
+				</li>
+				<li class="nav-item">
+					
+					<a href="/#resources">Resources</a>
+					
+				</li>
+				<li class="nav-item">
+					
+					<a href="/#downloads">Downloads</a>
+					
+				</li>
+				<li class="nav-item">
+					
+					<a href="/#research">Research</a>
+					
+				</li>
+				<li class="nav-item">
+					<div class="lang-dropdown">
+						<button class="langbtn"> Language <i class=" fa fa-caret-down lightblue" aria-hidden="true"></i></button>
+						<div class="lang-dropdown-child">
+							<a href="/">English</a>
+							<!-- add language here. here's an example 
+							  <a href="/es">Español</a>
+							-->
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div id="top"></div>
+
+<div id="top-area">
+	<div class="container">
+		<div class="table">
+			<div class="header-text">
+				<div class="flex-row">
+					<div class="col-md-12 text-center">
+						<h1 class="light white">User Guides </h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section id="guides" class="section gray-bg">
+	<div class="container">
+		<div class="cli-guide">
+			<div id="accordion">
+				<div class="card">
+					<div class="card-header">
+							<a data-toggle="collapse" href="#cliguide">
+								Masari CLI Guide
+							</a>
+					</div>
+					<div id="cliguide" class="collapse show" data-parent="#accordion">
+						<div class="card-body">
+							
+							<h1 id="guide-to-cli-wallet">Guide to CLI wallet</h1>
+<h2 id="based-on-masari-v03">Based on Masari v0.3</h2>
+
+<h3 id="basics">Basics</h3>
+
+<p>Open a terminal and navigate to the folder where you extracted the download of the CLI wallet into, in this case it’s</p>
+
+<p><code class="highlighter-rouge">cd /home/fire/masari-linux-x64-v0.3.0.0</code></p>
+
+<p>and start the daemon with <code class="highlighter-rouge">./masarid</code>.</p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/synced.png" alt="synced" /></p>
+
+<p>After the daemon is synced, open a new terminal tab with Ctrl + Shift + t. Start the CLI wallet with:</p>
+
+<p><code class="highlighter-rouge">./masari-wallet-cli</code></p>
+
+<p>Create a new wallet by entering any name for the wallet. Then input a password and choose your language. Make sure to copy down
+and keep your 25 word seed safe- with just those 25 words you can access and restore the entire wallet, including spending all
+the funds on it. Now you’re ready to begin.</p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/create_new_wallet.png" alt="A new wallet" /></p>
+
+<p>The general structure of a wallet is:</p>
+
+<h4 id="wallet--account--address">wallet &gt; account &gt; address</h4>
+
+<p>meaning that a wallet can contain many accounts and each account can contain many addresses. The wallet starts out with one account with one address on it. Let’s make more.</p>
+
+<p>First, a new account within our wallet:</p>
+
+<p><code class="highlighter-rouge">account new garage sale income</code></p>
+
+<p>This will make a new account with the label “garage sale income”. Notice that white spaces are allowed in the new account name.
+Let’s add another account for “everyday cash”:</p>
+
+<p><code class="highlighter-rouge">account new everyday cash</code></p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/new_accts.png" alt="New accounts" /></p>
+
+<p>As you can see, we now have 3 accounts indexed 0,1, and 2. To switch between accounts, use:</p>
+
+<p><code class="highlighter-rouge">account switch &lt;index&gt;</code></p>
+
+<p>Let’s say someone wants to buy the TV at our garage sale. We should switch to account 1- garage sale income, and create 
+a new address to receive the funds. Let’s add the label “old TV”, so we can remember the source of the income when tax season 
+inevitably rolls around.</p>
+
+<p><code class="highlighter-rouge">account switch 1</code></p>
+
+<p><code class="highlighter-rouge">address new old TV</code></p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/new_add_oldTV.png" alt="Address for TV money" /></p>
+
+<p>Now we can give this new address 9pDUb…43yY to the customer. The price for the old TV is 2 MSR. When we want to verify that
+the customer has paid, we can switch to the relevant account and use:</p>
+
+<p><code class="highlighter-rouge">address all</code></p>
+
+<p>to show all addresses within that account and whether or not they have been used. To check balance, simply type:</p>
+
+<p><code class="highlighter-rouge">balance</code></p>
+
+<p>To see specifically which address received the funds, we can use:</p>
+
+<p><code class="highlighter-rouge">show_transfers in</code></p>
+
+<p>where we see (in order) block height, transaction in or out, time, amount, txid, payment id, and index. The index 1
+corresponds to our generated address “old TV” at index 1, so we know the TV is paid for. When the transaction comes in (or is
+checked with <code class="highlighter-rouge">show_transfers in</code>) it specifies exactly where in the wallet the funds were sent to, in this case (in green) it says “idx 1/1” which means that the funds arrived to the account at index 1 (garage sale income), address at index 1 (old TV). For the sake of privacy, we won’t reuse this address.</p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/payment_receive_index1.png" alt="Got the TV money!" /></p>
+
+<h3 id="importing-a-wallet">Importing a wallet</h3>
+
+<p>If you have previously generated a wallet (from <a href="https://getmasari.org/masari-wallet-generator.html">an offline wallet generator</a> for example) and want to import it using the command line interface (CLI), you can use the following tools
+in a new terminal window:</p>
+
+<ul>
+  <li>import with view key</li>
+</ul>
+
+<p><code class="highlighter-rouge">./masari-wallet-cli --generate-from-view-key &lt;wallet name&gt;</code></p>
+
+<ul>
+  <li>import with spend key</li>
+</ul>
+
+<p><code class="highlighter-rouge">./masari-wallet-cli --generate-from-view-key &lt;wallet name&gt;</code></p>
+
+<ul>
+  <li>import with 25 word mnemonic phrase</li>
+</ul>
+
+<p><code class="highlighter-rouge">./masari-wallet-cli --restore-deterministic-wallet &lt;wallet name&gt;</code></p>
+
+<p>Importing with the view key will generate a <em>view-only</em> wallet, which we can not spend from. A view-only wallet also does not
+show transactions <strong>out</strong>, but only transactions <strong>in</strong>. For that reason, the balance reflected in a view-only wallet may be
+inaccurate, since any transactions out have not been substracted from the balance.</p>
+
+<p>Importing a wallet via spend key or mnemonic phrase will give us full access to the wallet, including the ability to spend the
+funds on that wallet. This is why spend key and mnemonic phrase must be kept secure at all times!</p>
+
+<h3 id="sending">Sending</h3>
+
+<p>Now say we want to send 1 MSR to a friend. After we open the wallet and select the account we want to send from, we can
+use the transfer command. The most general transfer command is:</p>
+
+<p><code class="highlighter-rouge">transfer &lt;address&gt; &lt;amount&gt;</code></p>
+
+<p>Sending 1 MSR to the address our friend gave us would then look like this:</p>
+
+<p><code class="highlighter-rouge">transfer 9jNEbBf4eUUeNvKEJVpeqGa86iavuJzhAV35REsYNh7KEHrFrHFJAMJiA1PPdLZdAvDAN7ps4Jn6iLfobCmMyT9pV17nrRi 1</code></p>
+
+<p>If you use a payment ID, it should be inserted after the amount. Using a new address for each transaction is recommended, though.
+If you want to reuse addresses and send multiple transactions to the same address, you can use the address book function.</p>
+
+<h3 id="address-book">Address book</h3>
+
+<p>To add an entry (white spaces are allowed in description):</p>
+
+<p><code class="highlighter-rouge">address_book add &lt;address&gt; &lt;description&gt;</code></p>
+
+<p>To show all entries in your address book, use:</p>
+
+<p><code class="highlighter-rouge">address_book</code></p>
+
+<p>And to delete an entry, use:</p>
+
+<p><code class="highlighter-rouge">address_book delete &lt;index&gt;</code></p>
+
+<p>All of these commands will show your address book after executing.</p>
+
+<h3 id="proving-sending">Proving sending</h3>
+
+<p>You will need 3 things to prove that you sent funds: txid, tx key, and the wallet address you sent to. In this case we sent
+to the address
+9jNEbBf4eUUeNvKEJVpeqGa86iavuJzhAV35REsYNh7KEHrFrHFJAMJiA1PPdLZdAvDAN7ps4Jn6iLfobCmMyT9pV17nrRi
+which can be verified when we get the txid and show the transfers out. We do that with:</p>
+
+<p><code class="highlighter-rouge">show_transfers out</code></p>
+
+<p>The txid is the string after the date and amount sent. In this case it’s</p>
+
+<p>13f7529685020eb3e69b401acc81968f90fe30024492f7b599053bf2ec269188</p>
+
+<p>Save this for step 3. Notice that the destination address displayed here.</p>
+
+<p>Next, get the tx key with:</p>
+
+<p><code class="highlighter-rouge">get_tx_key &lt;txid&gt;</code></p>
+
+<p>In this case it’s</p>
+
+<p>e8b96020ae99162c0d87d35d5d96e960e573189cefea634660c0cb1f01a6d905</p>
+
+<p>Save this for step 3.</p>
+
+<p>Finally, step 3. Check the tx key with the tx ID, tx key, and the address you sent to:</p>
+
+<p><code class="highlighter-rouge">check_tx_key &lt;txid&gt; &lt;txkey&gt; &lt;address&gt;</code></p>
+
+<p>Possible outcomes are:</p>
+
+<p><code class="highlighter-rouge">&lt;address&gt; received &lt;amount&gt; in txid &lt;txid&gt;</code></p>
+
+<p>or</p>
+
+<p><code class="highlighter-rouge">Error: &lt;address&gt; received nothing in txid &lt;txid&gt;</code></p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/prove_sending.png" alt="Prove sending" /></p>
+
+<h3 id="using-the-block-explorer">Using the block explorer</h3>
+
+<p>The block explorer at https://msrchain.net/ can be used to decode outputs (check if you have money coming in to an
+address) and prove sending (prove that you sent money out to an address). You’ll need to get some info from your CLI 
+wallet first, though. To decode outputs, you’ll need the address where you’re expecting funds (which you can get to by 
+doing <code class="highlighter-rouge">address</code> in the corresponding account) and the private viewkey. Doing</p>
+
+<p><code class="highlighter-rouge">viewkey</code></p>
+
+<p>will return your private viewkey and your public viewkey. Each wallet has 1 set of viewkeys, so it’s the same for all 
+your accounts and addresses within the same wallet.</p>
+
+<p>Proving sending is a bit more tricky. You also need 2 pieces of info here- the recipient’s address, and the tx private key
+that was generated by your wallet when you sent that transaction. Use the method outlined above in “Proving sending” to get
+the information needed, then simply copy and paste the info into the block explorer.</p>
+
+<h3 id="signing-and-verifying">Signing and verifying</h3>
+
+<p>Since cryptocurrencies are founded on cryptography, we can do some pretty neat things with the CLI wallet, like
+sign and verify files. Let’s make a text file with a message, say message.txt, and sign it with:</p>
+
+<p><code class="highlighter-rouge">sign &lt;file_to_sign&gt;</code></p>
+
+<p>for example:</p>
+
+<p><code class="highlighter-rouge">sign /home/me/Desktop/message.txt</code></p>
+
+<p>This will print out a signature. You need to give that signature and your wallet address (along with the file in question, of
+course) to the other party to verify the file with the verify command:</p>
+
+<p><code class="highlighter-rouge">verify &lt;filename&gt; &lt;address&gt; &lt;signature&gt;</code></p>
+
+<p>They can verify that the file has not been tampered with by doing:</p>
+
+<p><code class="highlighter-rouge">verify /home/my_friend/Downloads/message.txt &lt;my address&gt; &lt;signature from previous step&gt;</code></p>
+
+<p>The two possible outcomes are:</p>
+
+<p><code class="highlighter-rouge">Good signature from &lt;address&gt;</code></p>
+
+<p>or</p>
+
+<p><code class="highlighter-rouge">Error: Bad signature from &lt;address&gt;</code></p>
+
+<h3 id="multisig-wallet">Multisig wallet</h3>
+
+<p><strong>Warning: It’s best to start this process with a new wallet. Making a wallet that’s in use into a multisig wallet will cause all the wallet’s existing funds to be subject to the multisig wallet requirements.</strong></p>
+
+<p>Let’s make a 2/3 multisig wallet- meaning a wallet that is shared between 3 parties and requires the signature of 2 of the
+parties in order to send a transaction. After generating a new wallet (or 3 in the case of this tutorial example) we start 
+by doing:</p>
+
+<p><code class="highlighter-rouge">prepare_multisig</code></p>
+
+<p>The output will be:</p>
+
+<p><code class="highlighter-rouge">[wallet 5nsmk1]: prepare_multisig
+Wallet password: 
+MultisigV1cwjWztsW58NCXeWLBJm9oBawvQGGSTrcvhEo9diSuZQ8FSiGVPqLT3DbHeYKBTkyGjfbWqzpViuXwDPFvsL5RVdUbw1E5W9Tuc9XmWSS8dTySm2HPfaoyjBNi88AzP8DJQP5VV4CaVhxzAJgiGNpyC8ChJgXL4mPFWqyLb8FdUxeY2WC
+Send this multisig info to all other participants, then use make_multisig &lt;threshold&gt; &lt;info1&gt; [&lt;info2&gt;...] with others' multisig info
+This includes the PRIVATE view key, so needs to be disclosed only to that multisig wallet's participants</code></p>
+
+<p>All parties involved need to run this command and share their respective output line (MultisigV1cs…Y2WC in our case) with all other parties, so make sure to save that output line somewhere for easy access.</p>
+
+<p>Let’s say that our 2 friends gave us their multisig info as follows:</p>
+
+<p>MultisigV1D9uKCS3sYKzWGgDA5nieEg7WwQDXpAPEgWWp83dDvQnJC51aFzcKLXWVPrAjX7PfspgvxXZGLU7bTgBSiawsXpCZfVW5GfrWcwdVHQypWQt1Nv4NhYUiDtGReVoXMoPJQGcK6TYR3NNWTMNDZDCB8sCK9jSv5tbpXF9bi7NVWXSB392S</p>
+
+<p>MultisigV16fa4JTwXSaLi8NUVfaXhu1Rid6zt8MsYNGgYwbhLAj5e2rVwH7gR7rMjo898PvqtoBbYbDg96W2EV7kTv7xiAU5X3b4mQ1AGJbn3GeohBPd8334EWRaMN7vqnPQeYMgzNqGc1awtuX8WF5AEwTNyu8EAAsHgD6k5re7nXVc2muonKuQU</p>
+
+<p>Now we do make_multisig &lt;# of signatures needed to send funds&gt; &lt;friends’ multisig info&gt;</p>
+
+<p><code class="highlighter-rouge">make_multisig 2 MultisigV1D9uKCS3sYKzWGgDA5nieEg7WwQDXpAPEgWWp83dDvQnJC51aFzcKLXWVPrAjX7PfspgvxXZGLU7bTgBSiawsXpCZfVW5GfrWcwdVHQypWQt1Nv4NhYUiDtGReVoXMoPJQGcK6TYR3NNWTMNDZDCB8sCK9jSv5tbpXF9bi7NVWXSB392S MultisigV16fa4JTwXSaLi8NUVfaXhu1Rid6zt8MsYNGgYwbhLAj5e2rVwH7gR7rMjo898PvqtoBbYbDg96W2EV7kTv7xiAU5X3b4mQ1AGJbn3GeohBPd8334EWRaMN7vqnPQeYMgzNqGc1awtuX8WF5AEwTNyu8EAAsHgD6k5re7nXVc2muonKuQU</code></p>
+
+<p>Note that there’s a space between the 2 strings of multisig info from our friends, and we do not include our own multisig info in this command. The output will be something like:</p>
+
+<p><code class="highlighter-rouge">Another step is needed
+MultisigxV1RyEDEvH47sE2vmWE9xUpHRdYdxQcdXHR5UJbhQkKr8M8YrU29mR3BBTL1S8fiFVpfSSVXuSVzfPJ9FYBbsdqU3A2cgWNdKU19WPgggPp12hAnBiSkL3q1wUmMi365HfqZbZ4DSjawWJFVDkcQdgsYJY2LJhxe5dQhLccujb3rLkXL62ZE7nF9C5rXJ3HH54QJsyWA3G25ckc9re5WLehexiQbgby
+Send this multisig info to all other participants, then use finalize_multisig &lt;info1&gt; [&lt;info2&gt;...] with others' multisig info</code></p>
+
+<p>This is telling us to do almost the exact same thing one more time. Each person does <code class="highlighter-rouge">finalize_multisig</code> with the output line 
+of the other 2 friends. Our output line was [MultisigxV1RyED…LehexiQbgby] and our friends gave us the output lines
+[MultisigxV1DJKkCJA…EgxprmCAiV] and [MultisigxV1NeWAJK…fkvkcn4], so for this example:</p>
+
+<p><code class="highlighter-rouge">finalize_multisig MultisigxV1DJKkCJAaVw7BTnAQuMpHSe3xVgRoQtp4d6ty7nbiissBYrU29mR3BBTL1S8fiFVpfSSVXuSVzfPJ9FYBbsdqU3A2aabVeFzGHHdPwGEudRHKp3QiirG6sZbduaWNo3mxec7HAVSqcsCKynTSgQgwDXYQ8wevq8tPcag5ABMKpy7yojYgc94tsn4rc3vDyrx5JoZH5VjFqvBGKNWW59EgxprmCAiV MultisigxV1NeWAJKop7e7DMnUSQJzMKVHMzU4PDNajV6MpMkmz4e9wcgWNdKU19WPgggPp12hAnBiSkL3q1wUmMi365HfqZbZ4aabVeFzGHHdPwGEudRHKp3QiirG6sZbduaWNo3mxec7H9yZ51cgZhpYVoTbVWNMTLHHg15tBTQZHMgDPruqBbHV265T2UjJX7qwA5G1bpr6ZUtPU8c3D613HWcqB6fkvkcn4</code></p>
+
+<p>Remember to put a space between the sets of multisig info. There should be no output, but you will notice that the wallet address has changed.</p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/finalize_multisig1.png" alt="finalize_multisig" /></p>
+
+<p>Your new, multisig wallet address can be found by doing</p>
+
+<p><code class="highlighter-rouge">address</code></p>
+
+<p>and you will notice that now all 3 parties have the same wallet address:</p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/3xaddress.png" alt="3xaddress" /></p>
+
+<h3 id="spending-from-multisig">Spending from multisig</h3>
+
+<p>After our multisig wallet has some funds on it, let’s spend them. First we need to exchange multisig info with our friends. Since this is a 2/3 multisig wallet, we need the info from 1 friend to complete a transaction. Alternatively, we could get the info from both friends and decide later which info to sign with. First we’ll <strong>export</strong> our multisig info by using the command export_multisig_info and any file name, like:</p>
+
+<p><code class="highlighter-rouge">export_multisig_info multis1</code></p>
+
+<p>The exported file will be in the same folder as your wallets, in this case /home/fire/masari-linux-x64-v0.3.0.0. We need to send this to our 2 friends so they can sign a transaction, and they need to send their exported multisig info to us.</p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/multis1.png" alt="multis1" /></p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/multis2.png" alt="multis2" /></p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/multis3.jpg" alt="multis3" /></p>
+
+<p>Now we’ll <strong>import</strong> our friends’ multisig info files. By default, the wallet will look in the shell working folder for the files (that was /home/fire/masari-linux-x64-v0.3.0.0 in this case, but can vary if you have an advanced setup), so make sure the files are there. The file “multis 2” should be in friend #2’s wallet folder since he exported it there, same for “multis 3”. After we have all 3 multisig info files, we use the import_multisig_info command:</p>
+
+<p><code class="highlighter-rouge">import_multisig_info multis2 multis3</code></p>
+
+<p>The output will tell us the balance our multisig wallet has to work with, and that multisig info was imported. See the photo
+below for reference.</p>
+
+<p>Now let’s spend!</p>
+
+<p>Any of the 3 friends can start the transaction, and will need to get the signature from 1 of the other 2 friends. Start the transaction as usual</p>
+
+<p><code class="highlighter-rouge">transfer 5qF9rxMbxBH4mEXBs1SE1taMDrkEoVzGX4ycwBhNCiVqPMc5yEKoEqN4TLavJcdLMJGyQgawFTKbu5QTHFLVQWsWTbFTkX6 1</code></p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/transfer.png" alt="transfer" /></p>
+
+<p>This will generate a file called multisig_masari_tx. For peace of mind, let’s do one transaction at a time. Let’s choose friend #2 to complete the signature for this transaction. If we choose a friend that we did <em>not</em> import the multisig file info from, we will get the error</p>
+
+<p><code class="highlighter-rouge">Error: Failed to sign multisig transaction: Final signed transaction not found: this transaction was likely made without our export data, so we cannot sign it</code></p>
+
+<p>Also, our friend needs to have our file multisig_masari_tx in his shell working folder (which means we have to send it) and then
+they can use sign_multisig with the file multisig_masari_tx:</p>
+
+<p><code class="highlighter-rouge">sign_multisig multisig_masari_tx</code></p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/sign_multisig_right1.png" alt="sign" /></p>
+
+<p>After verifying the address, amount, fees, ring size, and change address, our friend will press <code class="highlighter-rouge">y</code> and the transaction will be successfully signed to the file multisig_masari_tx. Now the transaction is ready to be relayed to the network. Our friend can
+send the file back to us or broadcast it himself by doing:</p>
+
+<p><code class="highlighter-rouge">submit_multisig multisig_masari_tx</code></p>
+
+<p><img src="https://raw.githubusercontent.com/Satori-Nakamoto/simplewallet-guide/master/tx_success.png" alt="submit" /></p>
+
+<p>Congratulations, transaction successfully submitted!</p>
+
+<p>To recap, the sending process went like:</p>
+
+<ol>
+  <li>At least 2 friends <code class="highlighter-rouge">export_multisig_info</code> and share their file with the other one (or both).</li>
+  <li>The other friend (or both) uses <code class="highlighter-rouge">import_multisig_info</code> with at least 1 other multisig info file.</li>
+  <li>Any of the friends with imported multisig info can start the transaction using the normal <code class="highlighter-rouge">transfer</code> command and generate a file called “multisig_masari_tx”, which should be sent to at least 1 other friend for signing.</li>
+  <li>At least 1 of the <em>other</em> 2 friends needs to sign this file by doing <code class="highlighter-rouge">sign_multisig multisig_masari_tx</code>on the file</li>
+  <li>The signed file is submitted to the network with <code class="highlighter-rouge">submit_multisig multisig_masari_tx</code></li>
+</ol>
+
+<p>If the friends want to send another transaction, they should go back to step 1 and start the process again. If you don’t 
+delete the file multisig_masari_tx it will just be overwritten next time a multisig transaction is created.</p>
+
+<h3 id="other-basic-commands">Other basic commands</h3>
+
+<p>To send to multiple addresses in the same transaction, use:</p>
+
+<p><code class="highlighter-rouge">transfer &lt;address&gt; &lt;amount&gt; &lt;address&gt; &lt;amount&gt; &lt;address&gt; &lt;amount&gt; &lt;address&gt; &lt;amount&gt;</code></p>
+
+<p>To send <strong>all</strong> the money from an address, use</p>
+
+<p><code class="highlighter-rouge">sweep_all &lt;destination address&gt;</code></p>
+
+<p>Remember that if you want to sweep everything away from the <em>entire wallet</em> you will have to go through each <em>account</em> and do
+sweep_all for each <em>address</em>. The <code class="highlighter-rouge">sweep_all</code> function starts with the highest index address and goes down to the address
+at index 0. To check that you got all the coin out of the wallet, simply do</p>
+
+<p><code class="highlighter-rouge">account</code></p>
+
+<p>and it will show you each account with it’s corresponding balance.</p>
+
+<p><code class="highlighter-rouge">bc_height</code> prints the block chain height</p>
+
+<p><code class="highlighter-rouge">encrypted_seed</code> gives you the option to encrypt your seed words with a password of your choosing, and then displays it, while</p>
+
+<p><code class="highlighter-rouge">seed</code> simply displays your seed words</p>
+
+<p><code class="highlighter-rouge">donate &lt;amount&gt;</code> is the easy way to make a donation to the development fund</p>
+
+<p><code class="highlighter-rouge">fee</code> shows the current tx fee per kb, as well as any backlogs in the mempool</p>
+
+<p><code class="highlighter-rouge">payment_id</code> is used to generate a random payment ID, useful for knowing who a specific payment came from</p>
+
+<p><code class="highlighter-rouge">wallet_info</code> displays basic info about your wallet, like name and address</p>
+
+						</div>
+					</div>
+				</div>
+			 	<div class="card">
+					<div class="card-header">
+							<a data-toggle="collapse" href="#mobileguide">
+								Masari Mobile Wallet Guide
+							</a>
+					</div>
+					<div id="mobileguide" class="collapse" data-parent="#accordion">
+						<div class="card-body">
+							
+							<h1 id="masari-strategy-getting-to-know-the-mobile-wallet">Masari Strategy: Getting to Know the Mobile Wallet</h1>
+
+<p>This educational activity is designed to show the new user how to use the Mobile Wallet.</p>
+
+<p>Download the Official Masari Mobile Wallet
+To start, you will need the official Masari mobile wallet from getmasari.org. in the future, the wallet will be available in the Google Play Store as well as the Apple App Store.</p>
+
+<p>Open the Masari Mobile Wallet
+Once you have downloaded and installed the Masari mobile wallet, you may tap to open it. It will prompt you to create a wallet. Tap “Create Wallet,” soon afterwards, you may now choose a password for your wallet. When you do this, it is advisable to pick a password that is complex and not simply “`12345” as you could lose your funds if a malevolent person logs into your wallet.</p>
+
+<p>Setting Up Your Wallet
+Once you have picked your password, you will be given a mnemonic seed and private key. The mnemonic seed is a list of words is what is used to restore your wallet if you ever lose it or forget the password. So long as you remember and store this key, you will have access to your funds. It is advised for you not to simply remember this phrase in your head but instead write it down and store it in a secure place.</p>
+
+<p>Daemon Settings
+When you have chosen your password, the wallet will then attempt to connect to the blockchain. It may take a while for you to synchronize with the network with this selection and your phone may slow, however, this is normal and you have no need to worry. Faster phones will generally not slow much.</p>
+
+<p>Using Mobile Masari
+The mobile wallet is designed to give you the simplest experience using Masari. This being the case, sending and receiving Masari is a snap!</p>
+
+<p>Synchronizing
+The first thing you must do when using your wallet is wait for the daemon to synchronize to the network. You can see progress in the wallet as it will inform you of how many blocks you are behind. When you are synchronized, the daemon will inform you that you may now use Masari.</p>
+
+<p>Sending Funds
+To send funds, all you need to do is click the send tab on the left of the wallet and then enter the amount of Masari you wish to send in the “Amount” field. Lastly, enter in the payment address in the “Address Field” and then click “Send” to send your funds to your recipient. You can even use the camera feature to scan other people’s QR addresses.<br />
+Note: in some cases you may be required to enter in a payment ID to send your funds successfully. This feature is mostly relegated to exchanges such as Cryptopia. If you do not include the payment address that they provide you, you will lose your funds!</p>
+
+<p>Receiving Funds
+To receive funds, simply click on the “Receive” tab on the left. When you do this, you will see an address that starts with a “5.” You can click the clipboard on the right of the address to automatically copy the address to your computer’s clipboard. The QR code on this screen is a visual representation of your address, copy this QR to signs and cards to receive funds in your physical store.</p>
+
+<p>Donating to Masari
+Consider donating some spare Masari to the developer of the mobile wallet, Gnock. You can easily do this by copying the address in the “Donate Masari” tab and sending it to him using the steps in “Sending Funds.”</p>
+
+<p>This concludes the Masari wallet activity. Enjoy having Masari readily available on your desktop. If you ever have any questions, look for help at the communities below. Somebody will always be available to help you.</p>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="cut cut-bottom"></div>
+</section>
+
+	<footer>
+		<div class="container">
+			<!-- ctg disabled row until content is ready. <div class="row">
+				<div class="col-md-8">
+					<h3>Exchanges</h3>
+					<div class="col-sm-8">
+						<p>Exchange bullshit removed. Suggestions are open.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h3>Subscribe to Masari</h3>
+					<p>Masari subscribers get the latest news regarding releases, hot fixes and project updates emailed to their inbox. Sign up box soon.</p>
+				</div>
+
+			</div> -->
+			<div class="row bottom-footer text-center text-center-mobile">
+				<div class="col-sm-12">
+					<div class="col-sm-12 text-center text-center-mobile">
+						<ul class="social-footer">
+	<li>
+		<a href="https://bitcointalk.org/index.php?topic=2159114">
+			<i class="fa fa-btc"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://www.twitter.com/masaricurrency">
+			<i class="fa fa-twitter"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://github.com/masari-project">
+			<i class="fa fa-github"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://medium.com/@officialmasari">
+			<i class="fa fa-medium"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://t.me/masaricurrency">
+			<i class="fa fa-telegram"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://discord.gg/sMCwMqs">
+			<i class="fab fa-discord"></i>
+		</a>
+	</li>
+</ul>
+					</div>
+					<p>&copy; 2017-2019 All Rights Reserved. The Masari Project</p>
+					<p><a href="/legal">Legal</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Holder for mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="arrow_up"></i></a>
+	</div>
+
+	<!-- lets get to the top -->
+	<a href="#top" class="top-button hidden"><i class="fas fa-chevron-up"></i><p>Top</p></a>
+	<!-- Scripts -->
+	<script src="/js/jquery-3.4.1.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/jquery.onepagenav.js"></script>
+	<script src="/js/main.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+										
+Wat is Masari?
+
+Masari (MSR) is een cryptomunt gericht op schaalbaarheid en privacy, deze munt is
+gebaseerd op de ‘Monero’.
+De eerste belangrijke aanpassing van Masari is het invoeren van een van de beste en meest
+gekende moeilijkheidsalgoritmes, dit om het probleem 'flash mining' te voorkomen als een
+nieuwe altcoin. Masari zal de meeste updates van Monero volgen, alsook zal Masari zijn
+eigen bijdrage leveren aan Monero (zoals bijvoorbeeld het WHM moeilijkheidsalgoritme). In
+de toekomst zijn er updates gepland zoals het 'uncle mining' (door gebruik te maken van
+het DECOR+ protocol) en ook is er een 'whitepaper' gaande over een 'Blocktree' protocol
+dat gericht is op het schaalbaar maken van transacties binnen de blockchain.
+https://getmasari.org/
+
+Eigenschappen:
+De meeste eigenschappen zijn gelijk aan die van Monero:
+* PoW algoritme: CryptoNight-Fast
+* Maximaal aantal munten: ~18.5 miljoen (met ‘tail emission’)
+* Block-vergoeding: De vergoeding is afhankelijk van volgende formule en start bij 35 MSR
+per block: block_reward(block_height) = (2^64 - 1 - total_supply(block_height - 1)) * 2 ^
+-19 * 10 ^ -12
+* Blok-tijd: 120 seconden
+* Moeilijkheid: herberekend bij elke block
+* Genesis block: zaterdag , 2 september 2017 21:20:46 UTC
+
+Cryptobeurzen:
+https://app.stex.com/en/trade/pair/BTC/MSR/1D
+https://www.southxchange.com/Market/Book/MSR/BTC
+https://tradeogre.com/exchange/BTC-MSR
+https://crex24.com/exchange/MSR-BTC
+
+Marktindicatoren:
+https://coinlib.io/coin/MSR/Masari 
+https://www.cryptunit.com/ 
+https://www.cryptoisme.com/
+https://coinmarketcap.com/currencies/masari/
+
+Studies/onderzoek:
+https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf
+https://github.com/masari-project/research-corner/blob/master/wwhm/wwhm.pdf
+https://lab.getmonero.org/pubs/MRL-0005.pdf - RCT 
+https://cryptonote.org/whitepaper.pdf - CryptoNote v2.
+
+Community Projecten:
+Github: https://github.com/masari-project/masari 
+https://msrchain.net/ 
+Discord: https://discord.gg/sMCwMqs
+Telegram: https://t.me/masaricurrency
+Twitter: https://twitter.com/masaricurrency?lang=en
+Reddit: https://www.reddit.com/r/masari/
+Medium: https://medium.com/@officialmasari
+Forum: https://forum.getmasari.org/
+offline portemonnee: https://www.getmasari.org/masari-wallet-generator.html
+Afzet: https://github.com/masari-project/Masari-Branding-Guide
+https://github.com/masari-project/Masari-Marketing
+
+	Courtesy of  @BazookaJeff. 2019.
