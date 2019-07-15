@@ -1,0 +1,57 @@
+
+										
+ 
+Cos'è Masari?
+Masari (MSR) è una cryptocurrency anonima basata su Monero e focalizzata sulla scalabilità.
+Uno dei maggiori contributi è l’implementazione di uno dei migliori algoritmi di difficoltà ad
+oggi conosciuti al fine di mitigare i problemi di flash mining che colpiscono le altcoin più
+giovani. MSR in futuro rimarrà al passo con tutte le modifiche di Monero, oltre che a
+contribuire ad esso dove possibile (come il nuovo algoritmo di difficoltà). Le prossime
+features includeranno uncle mining (usando il protocollo DECOR+) e un futuro whitepaper
+riguardante un protocollo Blocktree che mira a risolvere la scalabilità on-chain.
+https://getmasari.org/
+
+Specifiche:
+(La maggior parte delle specifiche sono simili a Monero:
+* PoW algorithm: CryptoNight-Fast
+* Quantità massima: ~18.5 millioni (con tail emission)
+* Block reward: Varia gradualmente a partire da circa 35 MSR per blocco,
+block_reward(block_height) = (2^64 - 1 - total_supply(block_height - 1)) * 2 ^ -19 * 10 ^
+-12
+* Block time: 120 secondi
+* Difficulty: Re-targets at every block
+* Genesis block: Sabato, 2 Settembre 2017 21:20:46 UTC
+
+Exchanges:
+https://app.stex.com/en/trade/pair/BTC/MSR/1D
+https://www.southxchange.com/Market/Book/MSR/BTC
+https://tradeogre.com/exchange/BTC-MSR
+https://crex24.com/exchange/MSR-BTC
+
+Indicatori di mercato:
+https://coinlib.io/coin/MSR/Masari 
+https://www.cryptunit.com/ 
+https://www.cryptoisme.com/
+https://coinmarketcap.com/currencies/masari/
+
+Ricerca:
+https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf
+https://github.com/masari-project/research-corner/blob/master/wwhm/wwhm.pdf
+https://lab.getmonero.org/pubs/MRL-0005.pdf - RCT 
+https://cryptonote.org/whitepaper.pdf - CryptoNote v2.
+
+Recursos:
+ Github: https://github.com/masari-project/masari 
+Block Explorer: https://msrchain.net/ 
+Discord: https://discord.gg/sMCwMqs
+Telegram: https://t.me/masaricurrency
+Twitter: https://twitter.com/masaricurrency?lang=en
+Reddit: https://www.reddit.com/r/masari/
+Medium: https://medium.com/@officialmasari
+Forum: https://forum.getmasari.org/
+Portafoglio offline: https://www.getmasari.org/masari-wallet-generator.html
+Marketing: https://github.com/masari-project/Masari-Branding-Guide
+https://github.com/masari-project/Masari-Marketing
+
+
+	Courtesy of  @BazookaJeff. 2019.

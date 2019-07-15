@@ -1,0 +1,11 @@
+The problem: 
+
+In proof of work (PoW) blockchain networks, it is possible for multiple miners to solve the same block at the same time. Since only one block gets added to the blockchain at a time and the rest get discarded as orphan blocks, some miners who find the correct solution are not rewarded for their work. This is caused by propagation delay and it becomes increasingly common with faster block targets.
+
+What is an orphan block?
+
+When a block is solved by multiple miners at almost the same time, the blockchain splits into multiple valid chains. The blocks with a smaller share of PoW then get abandoned by the network, or orphaned. The miner reward for those orphaned blocks is lost even though the PoW was completed, resulting in wasted work.
+
+The solution:
+
+Instead of abandoning orphan blocks, Masari's implementation of uncle mining (SECOR protocol) includes them in the blockchain as uncle blocks, and miners are given a small reward. In doing so the PoW from the uncle block adds more weight to the blockchain, further securing the network and providing additional protection against chainsplits. This also allows the secure reduction of block time to 60 seconds from the usual 120 seconds used in most CryptoNote coins. 

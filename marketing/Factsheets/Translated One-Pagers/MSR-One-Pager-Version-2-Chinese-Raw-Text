@@ -1,0 +1,60 @@
+什么是 Masari?
+
+
+Masari (MSR) 是一个注重扩展性和确保隐私的虚拟币，基于门罗(Monero)。https://getmasari.org/index.html
+
+作为一个替代币，已经拥有了多个重要改进特性，其中之一是比较有必要的算法难度更新，旨在减缓闪现
+闪离的挖矿行为。MSR 会跟随门罗(Monero)的主要路线，而且也会在任何可能的时候反过来提供贡献(给
+门罗，Monero)，比如“WHM”难度算法。MSR 未来的特性会包括“安可挖矿”（使用 DECOR+协议），以
+及筹划中的白皮书所提到的区块树协议，针对于解决链上扩展性。
+
+参数:
+大多数参数与门罗(Monero, XMR)相同：
+PoW 算法：CryptoNight-Fast
+默认交易混合数：12
+总量：1850 万（包括尾部释放，用于填补全网中丢失的币）
+区块奖励：从每区块 35 个 MSR 开始，平稳地递减（与门罗 Monero 相同）
+区块奖励（区块高度 N）=(2^64 -1 – 当前总量(区块高度 N-1))*2^-19*10^-12
+区块时间：120 秒
+难度调整：每个区块都会调整难度
+创始区块：2017 年 9 月 2 日，周六，21:20:46 UTC 时间
+
+交易所：
+https://app.stex.com/en/trade/pair/BTC/MSR/1D
+https://www.southxchange.com/Market/Book/MSR/BTC
+https://tradeogre.com/exchange/BTC-MSR
+https://crex24.com/exchange/MSR-BTC
+
+市场行情:
+https://coinlib.io/coin/MSR/Masari (市场价格)
+https://www.cryptunit.com/ (挖矿收益计算)
+https://www.cryptoisme.com/ (挖矿收益计算)
+
+筹资:
+*所有的初始成本（基础开发成本，交易所上币费等）已经由个人支付，没有 ICO 也没有众筹。
+*在创始区块和 Bitcointalk 的公告中有 4 天的间隔，经统计在这期间挖矿产生的币少于总量的 1%（不计
+尾部释放）。所有在此期间由开发者挖到的数额，已经转帐到作为社区开发基金的捐献帐号（比如，作为
+开发者的激励）。
+*典型的重大贡献将得到 MSR 作为奖励（比如，落地推广网站、电报群流量入口）
+研究
+https://lab.getmonero.org/pubs/MRL-0005.pdf - RCT 环签名 (Masari 默认使用的 RCT 环签名交
+易加密技术)
+https://cryptonote.org/whitepaper.pdf - CryptoNote v2.
+有关 Masari 长期目标的白皮书正在筹备中。
+
+资源：
+Github 代码：https://github.com/masari-project/masari
+当前总量：https://github.com/masari-project/masari
+区块浏览器：https://msrchain.net/
+市场价格：https://www.worldcoinindex.com/coin/masari
+https://coinmarketcap.com/currencies/masari/
+Discord 群：https://discord.gg/sMCwMqs
+电报群：https://t.me/masaricurrency
+推特：https://twitter.com/masaricurrency?lang=en
+Reddit 论坛：https://www.reddit.com/r/masari/
+Medium：https://medium.com/@officialmasari
+官方论坛：https://forum.getmasari.org/
+离线钱包生成器：https://www.getmasari.org/masari-wallet-generator.html
+项目资料包：https://github.com/masari-project/Masari-Branding-Guide
+
+	Courtesy of  BazookaJeff. 2019.

@@ -1,0 +1,67 @@
+
+										
+ O Que é Masari?
+
+Masari (MSR) é uma criptomoeda aperfeiçoada à partir da criptomoeda Monero (XMR), na
+qual é baseada, e com foco em escalabilidade.
+Uma de suas primeiras e principais contribuições foi uma atualização necessária de um dos
+melhores algoritmos conhecidos de ajustamento da dificuldade na mineração com o objetivo
+de mitigar problemas com a mineração instantânea (flash mining). O projeto seguirá e
+implementará grande parte das mudanças feitas pelo projeto Monero, assim como
+contribuirá de volta quando possível (como, por exemplo, com o algoritmo de dificuldade
+WHM). Características futuras incluirão a implementação de uma forma que não se percam
+as recompensas de blocos órfãos minerados mas que não foram reconhecidos pela cadeia
+principal, e que será conhecido como “uncle mining”, utilizando-se do protocolo conhecido
+como “DECOR+”, que ajudará na descentralização da mineração. Futuramente, haverá a
+pesquisa e criação de um whitepaper à respeito de um protocolo chamado de “Blocktree”,
+que objetiva solucionar a escabilidade na própria cadeia primária.
+https://getmasari.org/
+
+Especificações:
+(A maior parte das especificações é equivalente às do projeto Monero):
+* Algoritmo PoW: CryptoNight Fast (algoritmo adaptado e implementado primeiramente
+pelos desenvolvedores do projeto Masari)
+* Oferta máxima de moedas: ~18.5 milhões (com uma pequena emissão extra anual após
+atingida essa quantidade (depois de 10 anos), conhecida como “tail emission”)
+* Recompensa por bloco: Inicialmente 35 MSR por bloco, levemente sendo reduzidas de
+acordo com a evolução dos blocos:
+recompensa_bloco(altura_atual_bloco) = (2^64 - 1 - oferta_máxima(altura_atual_bloco -
+1)) * 2 ^ -19 * 10 ^ -12
+* Tempo médio de cada bloco: 120 segundos
+* Dificuldade: Se reajusta automaticamente a cada bloco
+* Primeiro bloco (genesis): Sábado, 2 de setembro de 2017, às 21:20:46 UTC (18:20:46 no
+horário de Brasília)
+
+Exchanges:
+https://app.stex.com/en/trade/pair/BTC/MSR/1D
+https://www.southxchange.com/Market/Book/MSR/BTC
+https://tradeogre.com/exchange/BTC-MSR
+https://crex24.com/exchange/MSR-BTC
+
+Indicadores de Mercado:
+https://coinlib.io/coin/MSR/Masari 
+https://www.cryptunit.com/ 
+https://www.cryptoisme.com/
+https://coinmarketcap.com/currencies/masari/
+
+Pesquisa e Desenvolvimento:
+https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf
+https://github.com/masari-project/research-corner/blob/master/wwhm/wwhm.pdf
+https://lab.getmonero.org/pubs/MRL-0005.pdf - RCT 
+https://cryptonote.org/whitepaper.pdf - CryptoNote v2.
+
+Recursos:
+Fontes Github: https://github.com/masari-project/masari 
+Explorador da Blockchain: https://msrchain.net/ 
+Discord: https://discord.gg/sMCwMqs
+Telegram: https://t.me/masaricurrency
+Twitter: https://twitter.com/masaricurrency?lang=en
+Reddit: https://www.reddit.com/r/masari/
+Medium: https://medium.com/@officialmasari
+Forum: https://forum.getmasari.org/
+Carteira off-line: https://www.getmasari.org/masari-wallet-generator.html
+Marketing: https://github.com/masari-project/Masari-Branding-Guide
+https://github.com/masari-project/Masari-Marketing
+
+
+	Courtesy of  @BazookaJeff. 2019.

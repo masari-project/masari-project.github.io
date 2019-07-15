@@ -1,0 +1,64 @@
+Que Es Masari?
+
+
+Masari (MSR) es una criptomoneda basada en Monero y centrada en la escalabilidad y en
+asegurar la privacidad.
+Uno de los primeros aportes de importancia es la actualización necesaria para implementar
+uno de los algoritmos de dificultad más conocidos, cuyo objetivo es mitigar los problemas de
+flash mining al ser una altcoin de reciente creación.
+MSR rastreará la mayoría de los cambios hechos por Monero, y también contribuirá de vuelta
+siempre que sea posible (como con el algoritmo de ajuste de dificultad WHM). En el futuro se
+incluirán características como el minado de uncles (usando el protocolo DECOR+) y un
+whitepaper aún pendiente sobre un protocolo Blocktree que tiene como objetivo resolver la
+escalabilidad on-chain.
+
+https://getmasari.org/
+
+Especificaciones:
+ Algoritmo PoW: CryptoNight-Fast
+ Suministro máximo: ~18,5 millones (con tail emission)
+ Recompensa de bloque: Relación de recurrencia suavemente variable que empieza en
+torno a 35 MSR por bloque, recompensa_bloque(altura_bloque)= (2^64 - 1 -
+suministro_total(altura_bloque - 1)) * 2 ^ -19 * 10 ^ -12
+ Tiempo entre bloques: 120 segundos
+ Dificultad: Se reajusta en cada bloque
+ Bloque de origen: Sábado 2 de Septiembre de 2017, 21:20:46 UTC 
+
+Sitios de intercambio:
+https://app.stex.com/en/trade/pair/BTC/MSR/1D
+https://www.southxchange.com/Market/Book/MSR/BTC
+https://tradeogre.com/exchange/BTC-MSR
+https://crex24.com/exchange/MSR-BTC
+
+Indicadores de mercado:
+https://coinmarketcap.com/currencies/masari/
+https://www.worldcoinindex.com/coin/masari
+https://coinlib.io/coin/MSR/Masari 
+https://www.cryptunit.com
+https://www.cryptoisme.com
+
+Investigación:
+https://github.com/masari-project/research-corner/blob/master/wwhm/wwhm.pdf
+https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf
+https://lab.getmonero.org/pubs/MRL-0005.pdf - Ring Confidential Transactions (las
+transacciones usan RCT por defecto en Masari)
+https://cryptonote.org/whitepaper.pdf - CryptoNote v2.
+Ona de las metas más a largo plazo de Masari requiere un whitepaper que todavía no ha sido
+redactado.
+
+Foros de discusión y 
+descargas:
+Github: https://github.com/masari-project/masari
+Explorador de bloques: https://msrchain.net/
+Discord: https://discord.gg/sMCwMqs
+Telegram: https://t.me/masaricurrency
+Twitter: https://twitter.com/masaricurrency?lang=en
+Reddit: https://www.reddit.com/r/masari/
+Medium: https://medium.com/@officialmasari
+Forum: https://forum.getmasari.org/
+Generador de billetera offline: https://www.getmasari.org/masari-wallet-generator.html
+Márketing: https://github.com/masari-project/Masari-Branding-Guide
+https://github.com/masari-project/Masari-Marketing
+Código fuente: Source: https://github.com/masari-project/masari
+
+Courtesy of  @BazookaJeff. 2019.
