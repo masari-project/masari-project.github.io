@@ -10,5 +10,5 @@ releases:
 - type: "CLI"
   version: "0.3.1.2"
   codename: "Dandy Dromedary"
-  url: "https://github.com/masari-project/masari/releases/download/v0.3.1.2/masari-win-x64-v03.1.2.zip"
+  url: "https://github.com/masari-project/masari/releases/download/v0.3.1.2/masari-win-x64-v0.3.1.2.zip"
   sha256: "6a95de1067b9baa9d357edd4741575aa5e432130b97b9892d91525be935fbd44"
