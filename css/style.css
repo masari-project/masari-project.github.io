@@ -36,6 +36,9 @@ body {
 		color: #fff;
 		padding:15px;
 	}
+	.navbar-nav > li {
+		padding: 2px 10px !important;
+	}
 }
 
 
@@ -1148,10 +1151,6 @@ footer h3 {
 
 .padded-row {
 	padding: 1.25rem;
-}
-
-p.left { 
-	text-align: left;
 }
 
 .centered {
