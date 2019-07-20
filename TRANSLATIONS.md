@@ -39,8 +39,6 @@ The following files should also be translated. These files contain content for t
 - _data/en/roadmap/08-ledger.yml
 - _data/en/roadmap/09-blocktree-implementation.yml
 - _data/en/roadmap/10-simple-private-tokens.yml
-- _data/en/roadmap/11-real-time-auth.yml
-- _data/en/roadmap/12-i-o-bound-pow.yml
 
 After translating the above files, the majority of the front page content should be translated.
 
