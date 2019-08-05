@@ -25,18 +25,30 @@ description: '{{ site.translations[page.lang].seo.meta.guide.desc }}'
 				</div>
 			 	<div class="card">
 					<div class="card-header">
-							<a data-toggle="collapse" href="#mobileguide">
-								Masari Mobile Wallet Guide
+							<a data-toggle="collapse" href="#webwalletguide">
+								Masari Web Wallet Guide
 							</a>
 					</div>
-					<div id="mobileguide" class="collapse" data-parent="#accordion">
+					<div id="webwalletguide" class="collapse" data-parent="#accordion">
 						<div class="card-body">
-							{% capture mwGuide %}{% include_relative marketing/Tutorials/Mobile-Wallet/Masari_Engagement_Mobile_Wallet.md %}{% endcapture %}
-							{{ mwGuide | markdownify }}
+							{% capture wwGuide %}{% include_relative marketing/Tutorials/Web-Wallet/Masari_Engagement_Webwallet_Instructions.md %}{% endcapture %}
+							{{ wwGuide | markdownify }}
 						</div>
 					</div>
 				</div>
-
+				<div class="card">
+					<div class="card-header">
+							<a data-toggle="collapse" href="#paperwalletguide">
+								Masari Paper Wallet Guide
+							</a>
+					</div>
+					<div id="paperwalletguide" class="collapse" data-parent="#accordion">
+						<div class="card-body">
+							{% capture pwGuide %}{% include_relative marketing/Tutorials/Paper-Wallet/paper-wallet-guide.md %}{% endcapture %}
+							{{ pwGuide | markdownify }}
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
