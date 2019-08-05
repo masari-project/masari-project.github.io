@@ -1,5 +1,6 @@
-# Guide to CLI wallet
-## Based on Masari v0.3
+# Getting to Know the CLI Wallet
+
+This educational activity is designed to show the new user how to use the CLI Wallet. It is based off of v0.3 but will be very similar to future versions.
 
 ### Basics
 
