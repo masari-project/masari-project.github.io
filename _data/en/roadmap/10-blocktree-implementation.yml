@@ -2,6 +2,6 @@ quarter:
 year: 
 title: "Blocktree Implementation"
 desc: "Pending preceding research, implementation to be complete by end of year."
-alignment: "right"
-order: 10
+alignment: "left"
+order: 11
 complete:
