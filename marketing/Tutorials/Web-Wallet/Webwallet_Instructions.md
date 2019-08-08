@@ -2,7 +2,7 @@
 
 This educational activity is designed to show the new user how to use the Web Wallet, accessible at the following url:
 
-https://wallet.getmasari.org/
+[https://wallet.getmasari.org/](https://wallet.getmasari.org/)
 
 ### Setting Up A New Wallet
 
@@ -30,7 +30,7 @@ Make sure to keep a copy (or multiple copies) at all times in a secure place, as
 
 ![understand](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/understand.PNG)
 
-Congradulations! You have sucessfully created a Masari wallet. The wallet will automatically start syncronizing with the network.
+Congratulations! You have sucessfully created a Masari wallet. The wallet will automatically start syncronizing with the network.
 
 Your newly created wallet is now easily accessible by going to the landing page and clicking 'Load my wallet' in the center or on the top-right corner. 
 
@@ -74,7 +74,7 @@ If you chose to import using a mnemonic phrase, enter it and click 'Import'.
 
 The QR code import feature is currently not supported.
 
-Congradulations! You have sucessfully created a Masari wallet. The wallet will automatically start syncronizing with the network.
+Congratulations! You have sucessfully created a Masari wallet. The wallet will automatically start syncronizing with the network.
 
 ### Navigating The Wallet
 
@@ -128,4 +128,4 @@ The network page lists several stats about the Masari network.
 
 ![network page](https://raw.githubusercontent.com/JeuTheIdit/Masari-Marketing/master/Tutorials/Web-Wallet/Images/network%20stats%20page.PNG)
 
-This concludes the Masari wallet activity. Enjoy having Masari readily available via the web!
+This concludes the Masari wallet activity. Enjoy having Masari readily available via the web! If you have any questions, hop on any Masari community and ask for help.

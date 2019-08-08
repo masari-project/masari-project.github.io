@@ -167,7 +167,7 @@ or
 
 ### Using the block explorer
 
-The block explorer at https://msrchain.net/ can be used to decode outputs (check if you have money coming in to an
+The block explorer at [https://explorer.getmasari.org](https://explorer.getmasari.org) can be used to decode outputs (check if you have money coming in to an
 address) and prove sending (prove that you sent money out to an address). You'll need to get some info from your CLI 
 wallet first, though. To decode outputs, you'll need the address where you're expecting funds (which you can get to by 
 doing `address` in the corresponding account) and the private viewkey. Doing
@@ -355,3 +355,7 @@ and it will show you each account with it's corresponding balance.
 `payment_id` is used to generate a random payment ID, useful for knowing who a specific payment came from
 
 `wallet_info` displays basic info about your wallet, like name and address
+
+### Conclusion
+
+This concludes the Masari wallet activity. Enjoy transferring or hodling your Masari using the CLI wallet! If you have any questions, hop on any Masari community and ask for help.
