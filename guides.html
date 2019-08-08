@@ -18,7 +18,7 @@ description: '{{ site.translations[page.lang].seo.meta.guide.desc }}'
 					</div>
 					<div id="cliguide" class="collapse show" data-parent="#accordion">
 						<div class="card-body">
-							{% capture cliGuide %}{% include_relative marketing/Tutorials/CLI-wallet/CLI-wallet-guide.md %}{% endcapture %}
+							{% capture cliGuide %}{% include_relative marketing/Tutorials/CLI-wallet/CLI_Wallet_Instructions.md %}{% endcapture %}
 							{{ cliGuide | markdownify }}
 						</div>
 					</div>
@@ -31,7 +31,7 @@ description: '{{ site.translations[page.lang].seo.meta.guide.desc }}'
 					</div>
 					<div id="webwalletguide" class="collapse" data-parent="#accordion">
 						<div class="card-body">
-							{% capture wwGuide %}{% include_relative marketing/Tutorials/Web-Wallet/Masari_Engagement_Webwallet_Instructions.md %}{% endcapture %}
+							{% capture wwGuide %}{% include_relative marketing/Tutorials/Web-Wallet/Webwallet_Instructions.md %}{% endcapture %}
 							{{ wwGuide | markdownify }}
 						</div>
 					</div>
@@ -44,7 +44,7 @@ description: '{{ site.translations[page.lang].seo.meta.guide.desc }}'
 					</div>
 					<div id="paperwalletguide" class="collapse" data-parent="#accordion">
 						<div class="card-body">
-							{% capture pwGuide %}{% include_relative marketing/Tutorials/Paper-Wallet/paper-wallet-guide.md %}{% endcapture %}
+							{% capture pwGuide %}{% include_relative marketing/Tutorials/Paper-Wallet/Paper_Wallet_Instructions.md %}{% endcapture %}
 							{{ pwGuide | markdownify }}
 						</div>
 					</div>
