@@ -49,6 +49,19 @@ description: '{{ site.translations[page.lang].seo.meta.guide.desc }}'
 						</div>
 					</div>
 				</div>
+				<div class="card">
+					<div class="card-header">
+							<a data-toggle="collapse" href="#guiwalletguide">
+								Masari GUI Wallet Guide
+							</a>
+					</div>
+					<div id="guiwalletguide" class="collapse" data-parent="#accordion">
+						<div class="card-body">
+							{% capture gwGuide %}{% include_relative marketing/Tutorials/GUI-Wallet/GUI_Wallet_Instructions.md %}{% endcapture %}
+							{{ gwGuide | markdownify }}
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
