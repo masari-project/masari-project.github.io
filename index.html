@@ -26,7 +26,7 @@ description: '{{ site.translations[site.lang].seo.meta.main.desc }}'
 						{% assign coreVerLinux = false %}
 						{% assign coreVerMac = false %}
 						{% assign coreVerAndroid = false %}
-						{% for os1 in site.data[site.lang].downloads %}
+						{% for os1 in site.data.downloads %}
 							{% assign opsys1 = os1[1] %}
 							{% assign operatingsystem = opsys1.system %}
 							{% case operatingsystem %}
@@ -216,7 +216,7 @@ description: '{{ site.translations[site.lang].seo.meta.main.desc }}'
 		</div>
 		<div class="row centered">
 			{% for order in (1..5) %}
-			{% for os in site.data[site.lang].downloads %}
+			{% for os in site.data.downloads %}
 			{% assign opsys = os[1] %}
 			{% if opsys.order == order %}
 			<div class="col-md-6">
