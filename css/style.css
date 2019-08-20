@@ -825,6 +825,7 @@ footer .social-footer li:hover a {
 	display: block;
 	background: white;
 	width: 100%;
+	min-width: 100px;
 }
 .navbar-fixed-top .show-child {
 	position: absolute;
@@ -1186,4 +1187,3 @@ text-decoration: none;
 	    text-align: center;
 	    width: 100%;
 }
-
