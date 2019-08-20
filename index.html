@@ -1,9 +1,8 @@
 ---
 layout: default
 ref: index
-lang: en
-title: '{{ site.translations[page.lang].seo.meta.main.title }}'
-description: '{{ site.translations[page.lang].seo.meta.main.desc }}'
+title: '{{ site.translations[site.lang].seo.meta.main.title }}'
+description: '{{ site.translations[site.lang].seo.meta.main.desc }}'
 ---
 <!-- banner -->
 <header id="home">
@@ -27,7 +26,7 @@ description: '{{ site.translations[page.lang].seo.meta.main.desc }}'
 						{% assign coreVerLinux = false %}
 						{% assign coreVerMac = false %}
 						{% assign coreVerAndroid = false %}
-						{% for os1 in site.data[page.lang].downloads %}
+						{% for os1 in site.data[site.lang].downloads %}
 							{% assign opsys1 = os1[1] %}
 							{% assign operatingsystem = opsys1.system %}
 							{% case operatingsystem %}
@@ -147,7 +146,7 @@ description: '{{ site.translations[page.lang].seo.meta.main.desc }}'
 			<div class="col-md-12">
 				<div class="timeline">
 					{% for order in (1..30) %}
-						{% for goal in site.data[page.lang].roadmap %}
+						{% for goal in site.data[site.lang].roadmap %}
 							{% assign item = goal[1] %}
 							{% if item.order == order %}
 					<div class="timeline-container {{ item.alignment }}">
@@ -188,7 +187,7 @@ description: '{{ site.translations[page.lang].seo.meta.main.desc }}'
 		</div>
 		<div class="row">
 			{% for order in (1..30) %}
-			{% for resources in site.data[page.lang].resources %}
+			{% for resources in site.data[site.lang].resources %}
 			{% assign resource = resources[1] %}
 			{% if resource.order == order %}
 			<div class="col-md-3">
@@ -217,7 +216,7 @@ description: '{{ site.translations[page.lang].seo.meta.main.desc }}'
 		</div>
 		<div class="row centered">
 			{% for order in (1..5) %}
-			{% for os in site.data[page.lang].downloads %}
+			{% for os in site.data[site.lang].downloads %}
 			{% assign opsys = os[1] %}
 			{% if opsys.order == order %}
 			<div class="col-md-6">
@@ -264,7 +263,7 @@ description: '{{ site.translations[page.lang].seo.meta.main.desc }}'
 		<div class="row centered">
 			<div class="col-md-12">
 				{% for order in (1..10) %}
-				{% for research in site.data[page.lang].research %}
+				{% for research in site.data[site.lang].research %}
 				{% assign article = research[1] %}
 				{% if article.order == order %}
 				<div class="abstract light-shadow">
