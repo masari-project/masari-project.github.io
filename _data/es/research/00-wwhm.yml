@@ -1,0 +1,4 @@
+title: "WWHM Algoritmo de Ajuste de Dificultad"
+abstract: "Este documento detalla la implementación y la transición de la criptomoneda Masari a un algoritmo de ajuste de dificultad de media armónica ponderada para ajustar sin problemas su objetivo de dificultad para que la cadena mantenga un tiempo de bloqueo constante de dos minutos. La idea original de este algoritmo proviene de Tom Harold y fue modificada por Scott Roberts. La implementación original de C ++ fue realizada por Thaer Khawaja del Equipo Masari Core. Desde entonces, esta implementación ha sido adoptada por varios otros proyectos de criptomonedas y ha allanado el camino para otros algoritmos de ajuste de dificultad, como LWMA."
+url: "https://getmasari.org/research-papers/wwhm.pdf"
+order: 1

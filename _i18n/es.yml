@@ -1,0 +1,92 @@
+banner:
+  heading: "Masari"
+  subheading: "Sencillo. Escalable. Seguro"
+  download: "Descargar para"
+
+navigation:
+  home: "Página Principal"
+  about: "Sobre el Proyecto"
+  roadmap: "Roadmap"
+  team: "Equipo"
+  downloads: "Descargas"
+  resources: "Recursos"
+  research: "Estudiar"
+  language: "Idioma"
+
+sections:
+  about:
+    heading: "Sobre Masari"
+    paragraphs:
+      line1: "Masari es una criptomoneda innovadora centrada en la privacidad que permite a los usuarios enviar dinero a todo el mundo con tarifas bajas y rápidamente."
+      line2: "Masari (MSR) es una moneda digital entre red de igaul a igual de prueba de trabajo (PoW) que utiliza el objetivo bien investigado y criptográfico sonido <a href='https://cryptonote.org/whitepaper.pdf' target='_blank'> CryptoNote </ a> y <a href='https://lab.getmonero.org/pubs/MRL-0005.pdf' target='_blank'> RingCT </a> protocolos. Esto significa que cada origen, cantidad y destino de la transacción se ofusca por defecto."
+      line3: "Masari es un proyecto de código abierto totalmente descentralizado, similar a Bitcoin. Con varias novedades de CryptoNote, como Uncle Mining a través del <a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'> protocolo SECOR < / a>, una <a href='https://wallet.getmasari.org' target='_blank'> billetera de web totalmente del lado del cliente </a>, y fragmentación PoW a través de <a href = 'https: // github. com / masari-project / research-corner / blob / master / blocktree / blocktree.pdf 'target =' '> protocolo blocktree </a>, Masari es una moneda rápida, fungible, segura, privada y próximamente escalable ."
+    images:
+      block1:
+        heading: "Escalable"
+        text: "Las iniciativas de escalabilidad incluyen los protocolos SECOR y Blocktree"
+      block2:
+        heading: "Comunidad desarrollada"
+        text: "Desarrollado y financiado por voluntarios de la comunidad"
+      block3:
+        heading: "Sencillo"
+        text: "Multiplataforma compatible y fácil de usar"
+    learnmore: "Conoce más sobre Masari"
+  roadmap:
+    heading: "Roadmap"
+    paragraph: "Este Roadmap está dirigido por la comunidad y sujeta a cambios, representa logros previos (no completos) y plazos estimados para planes futuros."
+  research:
+    heading: "Rincón de investigación"
+    paragraph: "El rincón de investigación de Masari investiga la innovación en privacidad y tecnología de criptomonedas en el contexto del avance del protocolo de Masari"
+    abstract: "Abstracto"
+  resources: 
+    heading: "Recursos"
+    paragraph: "Recursos externos que proporcionan un tipo de utilización a Masari."
+  downloads: 
+    heading: "Descargas"
+    paragraph: "Liberar archivos y billeteras oficiales del equipo de Masari"
+    version: "Versión actual"
+
+language:
+  en: "English"
+  es: "Español"
+
+seo:
+  keywords: "masari, monero, crypto, cryptocurrency, blockchain, private money, hidden cash, cripto, criptomoneda, dinero privado, efectivo oculto"
+  author: "Comunidad Masari"
+  images:
+    preloader: "Preloader image"
+    logo: "Criptomoneda Masari"
+    android: "Use Masari en su móvil Android. Descargar desde Play Store!"
+    about:
+      image1: "Masari, una criptomoneda escalable"
+      image2: "Masari, criptomoneda desarrollada y financiada por la comunidad"
+      image3: "Masari, una criptomoneda simple centrada en la privacidad"
+  meta:
+    guide:
+      title: "Guías de usuario"
+      desc: "Guías escritas por usuarios para la comunidad Masari. Estas guías lo ayudan a aprender a usar el software Masari (así como a usar Monero)."
+    main:
+      title: "Criptomoneda centrada en la privacidad"
+      desc: "Masari es una criptomoneda centrada en la privacidad, centrada en la escalabilidad, no rastreable y fungible. Nuestro objetivo es permitir transacciones privadas rápidas pero seguras con tarifas bajas."
+    learnMoreMSR:
+      title: "¿Qué es masari?"
+      desc: "¡Masari es una criptomoneda centrada en la privacidad que puede ser utilizada por cualquier persona en cualquier parte del mundo!"
+    legal:
+      title: "Legal"
+      desc: "Este sitio web es operado por The Masari Project, un colectivo de personas detrás de Masari. Al visitar y utilizar este sitio web, aceptará estos Términos de uso ('TOU')"
+about:
+  paragraph_1: "Masari (MSR) es una moneda digital entre red de igaul a igual de prueba de trabajo (PoW) que utiliza el objetivo <a href ='https://lab.getmonero.org/pubs/MRL-0005.pdf' bien investigado y criptográficamente sólido = '_ blank'> RingCT </a> y <a href='https://cryptonote.org/whitepaper.pdf' target='_blank'> CryptoNote </a> protocolos. Esto significa que cada origen, cantidad y destino de la transacción se ofusca por defecto. Masari es un proyecto de código abierto que está completamente descentralizado sin ninguna autoridad central, similar a Bitcoin. Con varias novedades de CryptoNote, como Uncle Mining a través del <a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'> protocolo SECOR </a>, una <a href='https://wallet.getmasari.org' target='_blank'> billetera de web totalmente del lado del cliente </a>, y fragmentación PoW a través de <a href ='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf 'target =' _ blank '> protocolo blocktree </a>, Masari es un rápido, fungible, seguro, privado y pronto para ser eficientemente moneda escalable."
+  paragraph_2: "Con las firmas de anillo, las transacciones confidenciales y las direcciones ocultas, el origen, el monto y el destino de cada transacción no se pueden rastrear ni vincular. Las transacciones en la cadena de bloques de Masari no se pueden vincular a un usuario en particular o una identidad del mundo real."
+  paragraph_3: "Privado por defecto, Masari es una forma de moneda fungible. Los vendedores e intercambios no pueden incluir en la lista negra unidades de Masari de asociaciones de transacciones anteriores."
+  paragraph_4: "Uncle Mining (protocolo SECOR) reduce de forma segura el tiempo de bloqueo a 60 segundos, a diferencia de los 120 segundos comunes presentes en la mayoría de las monedas CryptoNote. Combinado con tarifas bajas, sus fondos se enviarán y recibirán rápidamente y a una fracción del costo."
+  paragraph_5: "Masari creó la primera iteración de lo que ahora es el algoritmo de dificultad LWMA. Masari utiliza una LWMA mejorada como nuestro algoritmo de dificultad para abordar el problema de la minería flash y los ajustes lentos de dificultad para mantener la minería rentable y nuestra red segura."
+  paragraph_6: "Además de reducir el tiempo de bloqueo, nuestro protocolo SECOR también ayuda a agregar más 'peso' a la cadena de bloques al recompensar a los mineros que resuelven <a href ='https://www.investopedia.com/terms/o/orphan-block-cryptocurrency.asp 'target =' _ blank '> bloques huérfanos </a>, asegurando aún más la red y brindando protección adicional contra divisiones de cadena."
+  paragraph_7: "Nuestra <a href='https://github.com/masari-project/masari-webwallet' target='_blank'> billetera de web </a> también es totalmente del lado del cliente, lo que significa que puede gastar su dinero de manera segura y efectiva en cualquier lugar y en cualquier momento"
+  paragraph_8: "Actualmente, las monedas CryptoNote no pueden escalar de manera eficiente debido a las características de privacidad predeterminadas inherentes que ocupan una gran parte del tamaño de cada transacción. La solución de Masari a este problema es blocktree, un método que aumenta el rendimiento de las transacciones al permitir que se extraigan varios bloques en paralelo. Al utilizar este protocolo, la red podrá retener la eficiencia bajo alta utilización a medida que Masari sea más compatible y utilizado. Blocktree está actualmente en proceso."
+  paragraph_9: "¿Tienes ideas sobre cómo mejorar Masari? Únase a nosotros y encuentre apoyo en un número de comunidades de Masari:"
+  heading_1: "Masari es una moneda de privacidad."
+  heading_2: "Masari es una moneda fungible."
+  heading_3: "Masari es una moneda rápida."
+  heading_4: "Masari es una moneda segura."
+  heading_5: "Escalado eficiente"
+  heading_6: "Comunidad Masari"

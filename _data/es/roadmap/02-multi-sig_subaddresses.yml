@@ -1,0 +1,7 @@
+quarter: "1"
+year: "2018"
+title: "Soporte multi-sig y subdirección"
+desc: "Multi-sig permitirá transacciones fuera de cadena sin confianza que de otro modo requerirían una contraparte. Las subdirecciones permiten que una sola clave privada Masari emita múltiples subdirecciones, expandiéndose más allá de los ID de pago."
+alignment: "left"
+order: 3
+complete: "true"
