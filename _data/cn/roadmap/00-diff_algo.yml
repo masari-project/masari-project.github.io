@@ -1,0 +1,7 @@
+quarter: "4"
+year: "2017"
+title: "WHM 难度运算方法"
+desc: "一个必要的<a href='https://github.com/monero-project/monero/pull/2887' target='_blank'>pull request</a>方法来解决一些币种常见的问题，比如闪挖。"
+alignment: "left"
+order: 1
+complete: "true"

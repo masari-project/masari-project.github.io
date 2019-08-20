@@ -1,0 +1,7 @@
+quarter:
+year: "2019"
+title: "Blocktree 白皮书"
+desc: "我们的团队正在开发blocktree，一种可以允许多个区块在同一时间进行挖矿并以此缩短交易时间，当Masari网络有越多使用者，交易速度也会更快。"
+alignment: "right"
+order: 8
+complete: "true"

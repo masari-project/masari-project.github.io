@@ -1,0 +1,93 @@
+banner:
+  heading: "Masari"
+  subheading: "简单，可扩展，安全"
+  download: "下载"
+
+navigation:
+  home: "首页"
+  about: "关于"
+  roadmap: "规划"
+  team: "团队"
+  downloads: "下载"
+  resources: "资源"
+  research: "研究"
+  language: "语言"
+
+sections:
+  about:
+    heading: "关于 Masari"
+    paragraphs:
+      line1: "Masari 是一个致力于隐私和创新的数字货币，它可以帮助使用者以低成本在全球范围内快速完成转账。"
+      line2: "Masari ($MSR) 是基于工作量证明算法的点对点网络货币，并且运用了<a href='https://cryptonote.org/whitepaper.pdf' target='_blank'>CryptoNote</a> 和 <a href='https://lab.getmonero.org/pubs/MRL-0005.pdf' target='_blank'>RingCT（环隐匿交易）</a>来确保交易来源、金额以及交易去向等的信息都是默认被加密的。"
+      line3: "Masari 类似于比特币，是一个开源并完全实现去中心化的项目。Masari创造了一些自己独有的演算法，比如利用<a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'>SECOR协议</a> 来uncle mining(挖叔块)；完全由用户自己控制的<a href='https://masariwallet.com' target='_blank'>浏览器钱包</a>；以及利用<a href='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf' target=''>blocktree协议</a>来完成分片技术。Masari是一个快速的、可互换替代的、安全的、保护隐私的，以及将会被更加接受和使用的货币。"
+    images:
+      block1:
+        heading: "可扩展性"
+        text: "SECOR 和 Blocktree 协议的使用增强了可拓展性"
+      block2:
+        heading: "社区支持"
+        text: "研发和资金由强大的社区为后盾"
+      block3:
+        heading: "简单"
+        text: "支持跨平台使用"
+    learnmore: "了解更多关于 Masari"
+  roadmap:
+    heading: "规划蓝图"
+    paragraph: "这个规划蓝图是以社群为导向的，这里包含了我们在过去的一些里程碑以及我们对未来的计划"
+  research:
+    heading: "研究发布"
+    paragraph: "Masari团队致力于更加创新的科技、协议和演算法的运用"
+    abstract: "摘要"
+  resources: 
+    heading: "资源"
+    paragraph: "Masari适用的外部链接"
+  downloads: 
+    heading: "下载"
+    paragraph: "Masari团队已发布的档案和钱包"
+    version: "当前版本"
+
+language:
+  en: "英文"
+  es: "西班牙文"
+  cn: "中文"
+
+seo:
+  keywords: "masari, 门罗币, 加密, 加密货币, 数字货币，虚拟货币, 区块链, 私有财产, 秘密转账"
+  author: "Masari 社区"
+  images:
+    preloader: "Preloader image"
+    logo: "数字货币 Masari"
+    android: "在你的安卓手机手机上使用 Masari。在安卓Play Store下载!"
+    about:
+      image1: "Masari, 一种有可扩展性的加密货币。"
+      image2: "Masari, 研发方向和资金由强大的社群为导向和后盾。"
+      image3: "Masari, 一种以隐私作为核心价值的加密货币。"
+  meta:
+    guide:
+      title: "用户指南"
+      desc: "为Masari社区准备的用户指南。这个指南可以帮助您更好的使用Masari软件（门罗币同样适用）。"
+    main:
+      title: "致力于隐私的数字货币"
+      desc: "Masari是以隐私为核心价值、看重拓展性、不可被追踪和可互换替代的数字货币。我们的目标是以低成本完成快速并安全私密的交易。"
+    learnMoreMSR:
+      title: "Masari 是什么？"
+      desc: "Masari是一种以隐私作为核心价值的加密虚拟货币，任何人在世界的任何地方都可以使用！"
+    legal:
+      title: "声明"
+      desc: "此网站由Masari项目组运作和拥有。在使用此网站时，您已同意了此网站的使用条款"
+about:
+  paragraph_1: "Masari ($MSR) 是基于工作量证明算法的点对点网络货币，并且运用了<a href='https://cryptonote.org/whitepaper.pdf' target='_blank'>CryptoNote</a> 和 <a href='https://lab.getmonero.org/pubs/MRL-0005.pdf' target='_blank'>RingCT（环隐匿交易）</a>来确保交易来源、金额以及交易去向等的信息都是默认被加密的。Masari类似于比特币，是一个开源并完全实现去中心化的项目。Masari创造了一些自己独有的演算法，比如利用<a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'>SECOR协议</a> 来uncle mining(挖叔块)；完全由用户自己控制的<a href='https://masariwallet.com' target='_blank'>网页浏览器钱包</a>；以及利用<a href='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf' target=''>blocktree协议</a>来完成分片技术。Masari是一个快速的、可互换替代的、安全的、保护隐私的，以及将会被更加接受和使用的货币。"
+  paragraph_2: "因为环签名、环形机密交易的隐身地址等技术，每一笔交易的来源、金额和去向都是不可追踪和不被连接的。在Masari区块链上的任何交易不能被关联到某一个账户或者真实身份上。"
+  paragraph_3: "Masari对隐私的保障还体现在它的可互换可替代性中，任何卖家和交易平台都不能禁止之前某次交易中的Masari被再次使用。"
+  paragraph_4: "挖掘叔块(SECOR协议)安全地将一般的CryptoNote币种的120秒挖矿时间减少到了60秒。再加上低手续费，您的转账会在高速并低成本下完成。"
+  paragraph_5: "Masari采用了LWMA难度算法来保障免受闪挖和难度调整缓慢等问题，这确保了网络的安全以及令挖矿维持盈利状态。"
+  paragraph_6: "不仅仅是缩短了平均挖矿时间，我们的SECOR协议还会提供对挖<a href='https://www.investopedia.com/terms/o/orphan-block-cryptocurrency.asp' target='_blank'>孤块</a>给予奖励，这更加保证了网络安全和解决了区块分裂问题。"
+  paragraph_7: "我们的<a href='https://github.com/masari-project/masari-webwallet' target='_blank'>浏览器钱包</a>是完全由用户自己控制的，这保障了用户的安全和隐私，让您可以在任何时候任何地点进行交易。"
+  paragraph_8: "现今市面上的CryptoNote币种的共同问题是它们可扩展性的限制。因为在默认状态下，安全特性导致了更长的交易所需时间。Masari对此的解决方案是blocktree，一种可以允许多个区块在同一时间进行挖矿并以此缩短交易时间，当Masari网络有越多使用者，交易速度也会更快。我们的团队正在开发blocktree。"
+  paragraph_9: "有一些给Masari的好点子? 欢迎加入我们的Masari社群:"
+  heading_1: "Masari 是私密的。"
+  heading_2: "Masari 是可替换的。"
+  heading_3: "Masari 是快速的。"
+  heading_4: "Masari 是安全的。"
+  heading_5: "高效率的拓展"
+  heading_6: "Masari 社区"

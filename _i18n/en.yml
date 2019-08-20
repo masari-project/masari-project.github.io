@@ -49,6 +49,7 @@ sections:
 language:
   en: "English"
   es: "Español"
+  cn: "中文"
 
 seo:
   keywords: "masari, monero, crypto, cryptocurrency, blockchain, private money, hidden cash"

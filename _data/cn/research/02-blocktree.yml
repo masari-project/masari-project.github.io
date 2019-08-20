@@ -1,0 +1,4 @@
+title: "CryptoNote Blocktree: 部分非同步的区块链共识"
+abstract: “这份研究报告包含了Blocktree的介绍并且解释如何实现多区块的同步来保证Masari的可拓展性。"
+url: "https://docs.google.com/viewer?url=https://github.com/masari-project/research-corner/raw/master/blocktree/blocktree.pdf"
+order: 3

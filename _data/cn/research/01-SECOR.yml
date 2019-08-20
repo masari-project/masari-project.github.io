@@ -1,0 +1,4 @@
+title: "区块链上的孤块"
+abstract: "这份研究报告包含在SECOR协议下，我们如何支持孤块的挖掘和Uncle Mining。"
+url: "https://nbviewer.jupyter.org/github/masari-project/research-corner/blob/master/secor/secor.pdf"
+order: 2
