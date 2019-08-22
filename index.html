@@ -124,7 +124,11 @@ description: '{{ site.translations[site.lang].seo.meta.main.desc }}'
 		<div class="row">
 			<div class="col-md-12">
 				<div class="learn-more center">
+					{% if site.lang != "en" %}
+					<a href="/{{ site.lang }}/what-is-masari">
+					{% else %}
 					<a href="/what-is-masari">
+					{% endif %}
 						<span class="btn btn-xl masari">{% t sections.about.learnmore %}</span>
 					</a>
 				</div>

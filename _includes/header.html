@@ -8,7 +8,13 @@
 			<i class="fa fa-bars"></i>
 		</button>
 		<a class="navbar-brand js-scroll-trigger" href="/#home"><img class="navbar-logo" src="/images/logo.png" data-active-url="/images/logo.png" alt="{% t seo.images.logo %}"></a>
-		<span class="navbar-logo-text"><a href="/#home">masari</a></span>
+		<span class="navbar-logo-text">
+			{% if site.lang != "en" %}
+			<a href="/{{ site.lang }}/#home">masari</a>
+			{% else %}
+			<a href="/#home">masari</a>
+			{% endif %}
+			</span>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
