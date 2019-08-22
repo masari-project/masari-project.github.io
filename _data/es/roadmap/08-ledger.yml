@@ -1,0 +1,7 @@
+quarter:
+year: "2019"
+title: "Integración de Ledger"
+desc: "Con muchas soluciones de hardware que prefieren guardar el MSR de uno, Ledger debe ser compatible como una alternativa de almacenamiento."
+alignment: "left"
+order: 9
+complete:

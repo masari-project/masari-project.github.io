@@ -1,0 +1,7 @@
+quarter: "4"
+year: "2017"
+title: "WHM Algoritmo de dificultad"
+desc: "Una actualización necesaria que implementa uno de los algoritmos más conocidos para mitigar los problemas de minería flash como una nueva altcoin, con un <a href ='https://github.com/monero-project/monero/pull/2887' target = ' _blank '> solicitud de extracción </a> realizada en sentido ascendente como una contribución a Monero."
+alignment: "left"
+order: 1
+complete: "true"
