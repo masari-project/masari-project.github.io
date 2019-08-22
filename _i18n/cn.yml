@@ -19,7 +19,7 @@ sections:
     paragraphs:
       line1: "Masari 是一个致力于隐私和创新的数字货币，它可以帮助使用者以低成本在全球范围内快速完成转账。"
       line2: "Masari ($MSR) 是基于工作量证明算法的点对点网络货币，并且运用了<a href='https://cryptonote.org/whitepaper.pdf' target='_blank'>CryptoNote</a> 和 <a href='https://lab.getmonero.org/pubs/MRL-0005.pdf' target='_blank'>RingCT（环隐匿交易）</a>来确保交易来源、金额以及交易去向等的信息都是默认被加密的。"
-      line3: "Masari 类似于比特币，是一个开源并完全实现去中心化的项目。Masari创造了一些自己独有的演算法，比如利用<a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'>SECOR协议</a> 来uncle mining(挖叔块)；完全由用户自己控制的<a href='https://masariwallet.com' target='_blank'>浏览器钱包</a>；以及利用<a href='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf' target=''>blocktree协议</a>来完成分片技术。Masari是一个快速的、可互换替代的、安全的、保护隐私的，以及将会被更加接受和使用的货币。"
+      line3: "Masari 类似于比特币，是一个开源并完全实现去中心化的项目。Masari创造了一些自己独有的演算法，比如利用<a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'>SECOR协议</a> 来uncle mining(挖叔块)；完全由用户自己控制的<a href='https://wallet.getmasari.org' target='_blank'>浏览器钱包</a>；以及利用<a href='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf' target=''>blocktree协议</a>来完成分片技术。Masari是一个快速的、可互换替代的、安全的、保护隐私的，以及将会被更加接受和使用的货币。"
     images:
       block1:
         heading: "可扩展性"
@@ -76,7 +76,7 @@ seo:
       title: "声明"
       desc: "此网站由Masari项目组运作和拥有。在使用此网站时，您已同意了此网站的使用条款"
 about:
-  paragraph_1: "Masari ($MSR) 是基于工作量证明算法的点对点网络货币，并且运用了<a href='https://cryptonote.org/whitepaper.pdf' target='_blank'>CryptoNote</a> 和 <a href='https://lab.getmonero.org/pubs/MRL-0005.pdf' target='_blank'>RingCT（环隐匿交易）</a>来确保交易来源、金额以及交易去向等的信息都是默认被加密的。Masari类似于比特币，是一个开源并完全实现去中心化的项目。Masari创造了一些自己独有的演算法，比如利用<a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'>SECOR协议</a> 来uncle mining(挖叔块)；完全由用户自己控制的<a href='https://masariwallet.com' target='_blank'>网页浏览器钱包</a>；以及利用<a href='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf' target=''>blocktree协议</a>来完成分片技术。Masari是一个快速的、可互换替代的、安全的、保护隐私的，以及将会被更加接受和使用的货币。"
+  paragraph_1: "Masari ($MSR) 是基于工作量证明算法的点对点网络货币，并且运用了<a href='https://cryptonote.org/whitepaper.pdf' target='_blank'>CryptoNote</a> 和 <a href='https://lab.getmonero.org/pubs/MRL-0005.pdf' target='_blank'>RingCT（环隐匿交易）</a>来确保交易来源、金额以及交易去向等的信息都是默认被加密的。Masari类似于比特币，是一个开源并完全实现去中心化的项目。Masari创造了一些自己独有的演算法，比如利用<a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'>SECOR协议</a> 来uncle mining(挖叔块)；完全由用户自己控制的<a href='https://wallet.getmasari.org' target='_blank'>网页浏览器钱包</a>；以及利用<a href='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf' target=''>blocktree协议</a>来完成分片技术。Masari是一个快速的、可互换替代的、安全的、保护隐私的，以及将会被更加接受和使用的货币。"
   paragraph_2: "因为环签名、环形机密交易的隐身地址等技术，每一笔交易的来源、金额和去向都是不可追踪和不被连接的。在Masari区块链上的任何交易不能被关联到某一个账户或者真实身份上。"
   paragraph_3: "Masari对隐私的保障还体现在它的可互换可替代性中，任何卖家和交易平台都不能禁止之前某次交易中的Masari被再次使用。"
   paragraph_4: "挖掘叔块(SECOR协议)安全地将一般的CryptoNote币种的120秒挖矿时间减少到了60秒。再加上低手续费，您的转账会在高速并低成本下完成。"
