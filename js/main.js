@@ -115,14 +115,16 @@ $(function() {
 
 	switch (os) { 
 		case 'Win32':
-			opsys = "Windows"
+			opsys = "Windows";
+			fa_logo = "windows";
 			dl = $('.download').data('win-dl');
 			ver = $('.download').data('win-dl-ver');
 			$('.for-text').removeClass('hidden');
 		break;
 
 		case 'Android':
-			opsys = "Android"
+			opsys = "Android";
+			fa_logo = "android";
 			dl = $('.download').data('android-dl');
 			ver = $('.download').data('android-dl-ver');
 			$('.for-text').removeClass('hidden');
@@ -130,6 +132,7 @@ $(function() {
 
 		case 'Linux x86_64': 
 			opsys = "Linux";
+			fa_logo = "linux";
 			dl = $('.download').data('linux-dl');
 			ver = $('.download').data('linux-dl-ver');
 			$('.for-text').removeClass('hidden');
@@ -137,6 +140,7 @@ $(function() {
 
 		case 'MacIntel':
 			opsys = 'Mac OS';
+			fa_logo = "apple";
 			dl = $('.download').data('mac-dl');
 			ver = $('.download').data('mac-dl-ver');
 			$('.for-text').removeClass('hidden');
@@ -153,7 +157,7 @@ $(function() {
 		$('.dlversion').text(ver);
 	}
 	$('.download').attr('href', dl);
-	$('.download-btn-logo').addClass('fa-'+opsys.toLowerCase());
+	$('.download-btn-logo').addClass('fa-'+fa_logo);
 	
 	console.log(os);
 	var isMobile = !!navigator.platform && /iPhone|iPad|iPod|Android/.test(navigator.platform);
