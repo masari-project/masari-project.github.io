@@ -19,53 +19,53 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item">
 					{% if site.lang != "en" %}
-					<a href="/{{ site.lang }}/#home">{% t navigation.home %}</a>
+					<a href="/{{ site.lang }}/#home" data-href="#home">{% t navigation.home %}</a>
 					{% else %}
-					<a href="/#home">{% t navigation.home %}</a>
+					<a href="/#home" data-href="#home">{% t navigation.home %}</a>
 					{% endif %}
 				</li>
 				<li class="nav-item">
 					{% if site.lang != "en" %}
-					<a href="/{{ site.lang }}/#about">{% t navigation.about %}</a>
+					<a href="/{{ site.lang }}/#about" data-href="#about">{% t navigation.about %}</a>
 					{% else %}
-					<a href="/#about">{% t navigation.about %}</a>
+					<a href="/#about"  data-href="#about">{% t navigation.about %}</a>
 					{% endif %}
 				</li>
 				<li class="nav-item">
 					{% if site.lang != "en" %}
-					<a href="/{{ site.lang }}/#roadmap">{% t navigation.roadmap %}</a>
+					<a href="/{{ site.lang }}/#resources" data-href="#resources">{% t navigation.resources %}</a>
 					{% else %}
-					<a href="/#roadmap">{% t navigation.roadmap %}</a>
+					<a href="/#resources" data-href="#resources">{% t navigation.resources %}</a>
 					{% endif %}
 				</li>
 				<li class="nav-item">
 					{% if site.lang != "en" %}
-					<a href="/{{ site.lang }}/#resources">{% t navigation.resources %}</a>
+					<a href="/{{ site.lang }}/#downloads" data-href="#downloads">{% t navigation.downloads %}</a>
 					{% else %}
-					<a href="/#resources">{% t navigation.resources %}</a>
+					<a href="/#downloads" data-href="#downloads">{% t navigation.downloads %}</a>
 					{% endif %}
 				</li>
 				<li class="nav-item">
 					{% if site.lang != "en" %}
-					<a href="/{{ site.lang }}/#downloads">{% t navigation.downloads %}</a>
+					<a href="/{{ site.lang }}/#research" data-href="#research">{% t navigation.research %}</a>
 					{% else %}
-					<a href="/#downloads">{% t navigation.downloads %}</a>
+					<a href="/#research" data-href="#research">{% t navigation.research %}</a>
 					{% endif %}
 				</li>
 				<li class="nav-item">
 					{% if site.lang != "en" %}
-					<a href="/{{ site.lang }}/#research">{% t navigation.research %}</a>
+					<a href="/{{ site.lang }}/roadmap" data-href="#roadmap">{% t navigation.roadmap %}</a>
 					{% else %}
-					<a href="/#research">{% t navigation.research %}</a>
+					<a href="/roadmap" data-href="#roadmap">{% t navigation.roadmap %}</a>
 					{% endif %}
 				</li>
 				<li class="nav-item">
 					<div class="lang-dropdown">
 						<button class="langbtn"> {% t navigation.language %} <i class=" fa fa-caret-down lightblue" aria-hidden="true"></i></button>
 						<div class="lang-dropdown-child">
-							<a href="/">{% t language.en %}</a>
-							<a href="/cn">{% t language.cn %}</a>
-							<a href="/es">{% t language.es %}</a>
+							<a href="/" class="langs">{% t language.en %}</a>
+							<a href="/cn" class="langs">{% t language.cn %}</a>
+							<a href="/es" class="langs">{% t language.es %}</a>
 							<!-- add language here. here's an example 
 							  <a href="/es">{% t language.es %}</a>
 							-->

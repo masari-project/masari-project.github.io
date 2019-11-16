@@ -1,6 +1,6 @@
 banner:
   heading: "Masari"
-  subheading: "Simple. Scalable. Secure"
+  subheading: "Simple. Scalable. Secure."
   download: "Download for"
 
 navigation:
@@ -75,6 +75,9 @@ seo:
     legal:
       title: "Legal"
       desc: "This website is operated by The Masari Project, a loose collective of individuals behind Masari. By visiting and using this website you will be accepting these Terms of Use ('TOU')"
+    roadmap:
+      title: "Masari Roadmap"
+      desc: "This outline is a representation of what Masari has done in the past and is aiming to accomplish in the future"
 about:
   paragraph_1: "Masari (MSR) is a proof of work (PoW) peer-to-peer internet currency using the well researched and cryptographically sound <a href='https://lab.getmonero.org/pubs/MRL-0005.pdf' target='_blank'>RingCT</a> and <a href='https://cryptonote.org/whitepaper.pdf' target='_blank'>CryptoNote</a> protocols. This means that every transaction origin, amount, and destination is obfuscated by default. Masari is an open source project that is fully decentralized without any central authorities, similar to bitcoin. With several CryptoNote firsts such as uncle mining via the <a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'>SECOR protocol</a>, a <a href='https://wallet.getmasari.org' target='_blank'>fully client side web wallet</a>, and PoW sharding via the <a href='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf' target='_blank'>blocktree protocol</a>, Masari is a fast, fungible, secure, private and soon-to-be efficiently scalable currency."
   paragraph_2: "With ring signatures, ring confidential transactions, and stealth addresses, every transaction origin, amount, and destination is untraceable and unlinkable. Transactions on the Masari blockchain cannot be linked to a particular user or real-world identity."

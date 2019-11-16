@@ -1,0 +1,48 @@
+---
+permalink: "/roadmap"
+layout: external
+ref: roadmap
+title: '{{ site.translations[site.lang].seo.meta.roadmap.title }}'
+description: '{{ site.translations[site.lang].seo.meta.roadmap.desc }}'
+---
+
+<!-- roadmap -->
+<section id="roadmap" class="section section-padded">
+	<div class="container">
+		<div class="flex-row text-center title">
+			<p class="light">{% t sections.roadmap.paragraph %}</p>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="timeline">
+					{% for order in (1..30) %}
+						{% for goal in site.data[site.lang].roadmap %}
+							{% assign item = goal[1] %}
+							{% if item.order == order %}
+					<div class="timeline-container {{ item.alignment }}">
+						<div class="timeline-content">
+							{% if item.year %}
+							<p class="timeline-date">
+								{% if item.quarter %}
+									Q{{ item.quarter }}
+								{% endif %}
+								{{ item.year }}
+							</p>
+							{%endif%}
+							<h2>{{ item.title }}</h2> 
+							{% if item.complete == "true" %}
+							<span style="color: #4cb85f; display: inline-block;">
+								<i class="fa fa-check" aria-hidden="true"></i>
+							</span>
+							{% endif %}
+							<p> {{ item.desc }} </p>
+						</div>
+					</div>
+							{% endif %}
+						{% endfor %}
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
