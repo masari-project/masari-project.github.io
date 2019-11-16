@@ -105,7 +105,7 @@
 		},
 
 		getHash: function($link) {
-			return $link.attr('href').split('#')[1];
+			return $link.split('#')[1];
 		},
 
 		getPositions: function() {
@@ -115,7 +115,7 @@
 			var $target;
 
 			self.$nav.each(function() {
-				linkHref = self.getHash($(this));
+				linkHref = self.getHash($(this).attr('data-href'));
 				$target = $('#' + linkHref);
 
 				if($target.length) {
@@ -142,7 +142,7 @@
 			var self = this;
 			var $link = $(e.currentTarget);
 			var $parent = $link.parent();
-			var newLoc = '#' + self.getHash($link);
+			var newLoc = '#' + self.getHash($link.attr('data-href'));
 
 			if(!$parent.hasClass(self.config.currentClass)) {
 				//Start callback
@@ -180,10 +180,10 @@
 			var windowTop = this.$win.scrollTop();
 			var position = this.getSection(windowTop);
 			var $parent;
-
+			
 			//If the position is set
 			if(position !== null) {
-				$parent = this.$elem.find('a[href$="#' + position + '"]').parent();
+				$parent = this.$elem.find('a[data-href$="#' + position + '"]').parent();
 
 				//If it's not already the current section
 				if(!$parent.hasClass(this.config.currentClass)) {
