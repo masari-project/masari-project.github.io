@@ -24,7 +24,8 @@ $(function() {
 			currentClass: 'active',
 			changeHash: false,
 			scrollSpeed: 400,
-			filter: ':not(.btn)'
+			/*filter: ':not(.btn)', */
+			filter: ':not(.langs)'
 		});
 
 	// Window Scroll
