@@ -211,13 +211,13 @@ in a new terminal window:</p>
   <li>import with spend key</li>
 </ul>
 
-<p><code class="highlighter-rouge">./masari-wallet-cli --generate-from-view-key &lt;wallet name&gt;</code></p>
+<p><code class="highlighter-rouge">./masari-wallet-cli --generate-from-spend-key &lt;wallet name&gt;</code></p>
 
 <ul>
   <li>import with 25 word mnemonic phrase</li>
 </ul>
 
-<p><code class="highlighter-rouge">./masari-wallet-cli --restore-deterministic-wallet &lt;wallet name&gt;</code></p>
+<p><code class="highlighter-rouge">./masari-wallet-cli --restore-deterministic-wallet</code></p>
 
 <p>Importing with the view key will generate a <em>view-only</em> wallet, which we can not spend from. A view-only wallet also does not
 show transactions <strong>out</strong>, but only transactions <strong>in</strong>. For that reason, the balance reflected in a view-only wallet may be

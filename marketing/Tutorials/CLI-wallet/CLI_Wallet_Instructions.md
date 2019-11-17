@@ -83,11 +83,11 @@ in a new terminal window:
 
 * import with spend key
 
-`./masari-wallet-cli --generate-from-view-key <wallet name>`
+`./masari-wallet-cli --generate-from-spend-key <wallet name>`
 
 * import with 25 word mnemonic phrase
 
-`./masari-wallet-cli --restore-deterministic-wallet <wallet name>`
+`./masari-wallet-cli --restore-deterministic-wallet`
 
 Importing with the view key will generate a *view-only* wallet, which we can not spend from. A view-only wallet also does not
 show transactions **out**, but only transactions **in**. For that reason, the balance reflected in a view-only wallet may be
