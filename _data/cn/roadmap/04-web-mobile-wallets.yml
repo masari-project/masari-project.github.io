@@ -1,7 +1,7 @@
 quarter: "3"
 year: "2018"
 title: "浏览器与手机钱包"
-desc: "为了更大范围的服务用户的日常使用，我们提供<a href='https://wallet.getmasari.org/' target='_blank'>网页浏览器钱包</a> 和 <a href='https://play.google.com/store/apps/details?id=org.masari.wallet&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target='_blank'>安卓钱包</a>"
+desc: "为了更大范围的服务用户的日常使用，我们提供<a href='https://wallet.getmasari.org/' target='_blank'>网页浏览器钱包</a> 和 <a href='https://play.google.com/store/apps/details?id=org.masari.mobilewallet' target='_blank'>安卓钱包</a>"
 alignment: "left"
 order: 5
 complete: "true"

@@ -1,7 +1,7 @@
 quarter: "3"
 year: "2018"
 title: "Billetera Web y Móvil"
-desc: "Esto apunta a la adopción masiva, incluido el soporte de móviles para la usabilidad diaria. La billetera web del lado del cliente se puede encontrar <a href='https://wallet.getmasari.org/' target='_blank'> aquí </a> y la billetera de Android se encuentra en <a href='https://play.google.com/store/apps/details?id=org.masari.wallet&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target =' _ blank '> Google Play Store </a>"
+desc: "Esto apunta a la adopción masiva, incluido el soporte de móviles para la usabilidad diaria. La billetera web del lado del cliente se puede encontrar <a href='https://wallet.getmasari.org/' target='_blank'> aquí </a> y la billetera de Android se encuentra en <a href='https://play.google.com/store/apps/details?id=org.masari.mobilewallet' target =' _ blank '> Google Play Store </a>"
 alignment: "left"
 order: 5
 complete: "true"
