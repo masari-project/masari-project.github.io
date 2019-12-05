@@ -1,0 +1,7 @@
+quarter: "4"
+year: "2017"
+title: "WHM Алгоритм Сложности"
+desc: "Необходимое обновление, реализующее один из самых известных алгоритмов в порядке смягчения проблем с флеш-майнингом в качестве нового альткоина, с помощью <a href='https://github.com/monero-project/monero/pull/2887' target='_blank'>pull request</a> сделано в первую очередь в качестве вклада в Monero."
+alignment: "left"
+order: 1
+complete: "true"

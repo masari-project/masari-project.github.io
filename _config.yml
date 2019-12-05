@@ -4,7 +4,7 @@ plugins:
  - jekyll-multiple-languages-plugin
  - jekyll-liquify
 
-languages: ["en", "es", "cn"]
+languages: ["en", "es", "cn", "ru"]
 
 exclude_from_localizations: ["js", "img", "css", "fonts", "CNAME","scripts","marketing","TRANSLATIONS.md"]
 
