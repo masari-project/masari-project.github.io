@@ -79,6 +79,9 @@ seo:
     roadmap:
       title: "Masari Roadmap"
       desc: "This outline is a representation of what Masari has done in the past and is aiming to accomplish in the future"
+    exchanges:
+      title: "Where to buy Masari?"
+      desc: "Masari can be purchased on many exchanges and from many individuals. Depending on your selection of an exchange, you may be able to purchase Masari directly with USD, CNY, RUB or any other fiat currency!"
 about:
   paragraph_1: "Masari (MSR) is a proof of work (PoW) peer-to-peer internet currency using the well researched and cryptographically sound <a href='https://lab.getmonero.org/pubs/MRL-0005.pdf' target='_blank'>RingCT</a> and <a href='https://cryptonote.org/whitepaper.pdf' target='_blank'>CryptoNote</a> protocols. This means that every transaction origin, amount, and destination is obfuscated by default. Masari is an open source project that is fully decentralized without any central authorities, similar to bitcoin. With several CryptoNote firsts such as uncle mining via the <a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'>SECOR protocol</a>, a <a href='https://wallet.getmasari.org' target='_blank'>fully client side web wallet</a>, and PoW sharding via the <a href='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf' target='_blank'>blocktree protocol</a>, Masari is a fast, fungible, secure, private and soon-to-be efficiently scalable currency."
   paragraph_2: "With ring signatures, ring confidential transactions, and stealth addresses, every transaction origin, amount, and destination is untraceable and unlinkable. Transactions on the Masari blockchain cannot be linked to a particular user or real-world identity."
@@ -95,3 +98,32 @@ about:
   heading_4: "Masari is a secure currency."
   heading_5: "Efficient Scaling"
   heading_6: "Masari Community"
+exchanges:
+  description: "Masari can be bought, sold and traded on many exchanges. When selecting an exchange, please take into consideration the location of the exchange as well as the history of the exchange. Masari does not take any responsibility for funds placed, bought, sold or lost on any exchanges and can not reimburse you. See the list of exchanges below and please do your research before exchanging funds on any exchange."
+  pairs:
+    BTC: "MSR-BTC"
+    USDT: "MSR-USDT"
+    ETH: "MSR-ETH"
+  tradeogre:
+    title: "TradeOgre"
+    desc: "TradeOgre is a truly anonymous centralized exchange trading platform. The owners and location of exchange are unknown. TradeOgre is established in year 2018. TradeOgre focuses on privacy cryptocurrencies."
+  citex:
+    title: "Citex"
+    desc: "CITEX is a centralized cryptocurrency exchange located in British Virgin Islands. CItex is established in the year 2018 and is directed to a Chinese audience."
+  crex24:
+    title: "Crex24"
+    desc: "CREX24 is a centralized cryptocurrency exchange located in Cyprus. CREX24 is established in year 2017."
+  stex:
+    title: "STEX"
+    desc: "STEX is a centralized cryptocurrency exchange. The owners and location of exchange are unknown. STEX is established in year 2017."
+  southxchange:
+    title: "SouthXChange"
+    desc: "SouthXchange is a centralized cryptocurrency exchange located in Argentina. SouthXchange is established in year 2015."
+  bisq:
+    title: "Bisq"
+    desc: "Bisq is a decentralized cryptocurrency exchange. Bisq was originally known as Bitsquare when it launched in 2014."
+  gj:
+    title: "GJ.com"
+    desc: "Launched in Sep 2018, GJ is a centralized exchange based in Seychelles. GJ aims to cater to a Chinese speaking audience."
+pairs: "Pairs"
+visit: "Visit"
