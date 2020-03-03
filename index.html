@@ -198,7 +198,7 @@ description: '{{ site.translations[site.lang].seo.meta.main.desc }}'
 						{% if release.sha256 != "" %} Official SHA256 Hash: <pre>{{ release.sha256 }}</pre> {% endif %}
 					{% endif %}
 					{% if release.type contains "Play" %}
-						<a href="{{ release.url }}" target="_blank"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width=50% alt="{% t seo.images.android %}"></a><p>{% t sections.downloads.version %}: {{ release.version }} {{ release.codename }}
+						<a href="{{ release.url }}" target="_blank"><img src="/images/external/google_play_store_badge.png" width=50% alt="{% t seo.images.android %}"></a><p>{% t sections.downloads.version %}: {{ release.version }} {{ release.codename }}
 						</p>
 					{% endif %}
 				{% endfor %}
