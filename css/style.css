@@ -782,6 +782,12 @@ footer .social-footer li:hover a {
 		padding-right: 30px;
 		padding-left: 30px;
 	}
+	.about .description {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
 }
 
 .navbar-logo { 
