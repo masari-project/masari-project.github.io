@@ -148,6 +148,7 @@ description: '{{ site.translations[site.lang].seo.meta.main.desc }}'
 			{% for resources in site.data[site.lang].resources %}
 			{% assign resource = resources[1] %}
 			{% if resource.order == order %}
+			{% if resource.enabled == 1 %}
 			<div class="col-md-3">
 				<div class="resources-con">
 					<a href="{{ resource.url }}" target="_blank">
@@ -158,6 +159,7 @@ description: '{{ site.translations[site.lang].seo.meta.main.desc }}'
 					</a>
 				</div>
 			</div>
+			{% endif %}
 			{% endif %}
 			{% endfor%} 
 			{% endfor %}
