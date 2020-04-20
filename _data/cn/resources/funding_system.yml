@@ -2,3 +2,4 @@ name: "社区资金"
 url: "https://funding.getmasari.org/"
 icon: "logo.png"
 order: 3
+enabled: 0

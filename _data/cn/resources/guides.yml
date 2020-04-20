@@ -2,3 +2,4 @@ name: "指南"
 url: "/guides"
 icon: "guides.png"
 order: 6
+enabled: 1

@@ -2,3 +2,4 @@ name: "矿池"
 url: "https://miningpoolstats.stream/masari"
 icon: "miningpools.png"
 order: 5
+enabled: 1

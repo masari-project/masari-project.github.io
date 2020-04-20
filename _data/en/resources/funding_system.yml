@@ -2,3 +2,4 @@ name: "Funding System"
 url: "https://funding.getmasari.org/"
 icon: "communityfundingsystem.png"
 order: 3
+enabled: 0

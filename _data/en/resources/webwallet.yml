@@ -2,3 +2,4 @@ name: "Web Wallet"
 url: "https://wallet.getmasari.org"
 icon: "simple.png"
 order: 2
+enabled: 1
