@@ -788,6 +788,9 @@ footer .social-footer li:hover a {
 		-ms-transform: scale(1);
 		transform: scale(1);
 	}
+	.about {
+		margin: 20px auto;
+	}
 }
 
 .navbar-logo { 
