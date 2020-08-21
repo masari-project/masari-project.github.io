@@ -1,0 +1,34 @@
+---
+permalink: "/research"
+layout: external
+ref: research
+title: '{{ site.translations[site.lang].seo.meta.research.title }}'
+description: '{{ site.translations[site.lang].seo.meta.research.desc }}'
+---
+
+<!-- research -->
+<section id="research" class="section section-padded">
+	<div class="container">
+		<div class="flex-row text-center title">
+			<p class="light">{% t sections.research.paragraph %}</p>
+		</div>
+		<div class="row centered">
+			<div class="col-md-12">
+				{% for order in (1..10) %}
+				{% for research in site.data[site.lang].research %}
+				{% assign article = research[1] %}
+				{% if article.order == order %}
+				<div class="abstract light-shadow">
+				<h4>
+					<a href="{{ article.url }}" target="_blank">
+					{{ article.title }}
+					</a>
+				</h4>
+				<p>{% t sections.research.abstract %}: {{ article.abstract }}</p>
+				</div>
+				{%endif%}
+				{%endfor%}
+				{%endfor%}
+			</div>
+		</div>
+</section>

@@ -82,6 +82,9 @@ seo:
     exchanges:
       title: "Where to buy Masari?"
       desc: "Masari can be purchased on many exchanges and from many individuals. Depending on your selection of an exchange, you may be able to purchase Masari directly with USD, CNY, RUB or any other fiat currency!"
+    research:
+      title: "Masari Research Corner"
+      desc: "Masari has brought innovative ideas to the cryptonote space such as Weighted-Weighted Harmonic Mean (improved to become LWMA), uncle mining (SECOR) as well as the idea of blocktree and simple private tokens. THese are our white papers regarding those ideas."
 about:
   paragraph_1: "Masari (MSR) is a proof of work (PoW) peer-to-peer internet currency using the well researched and cryptographically sound <a href='https://lab.getmonero.org/pubs/MRL-0005.pdf' target='_blank'>RingCT</a> and <a href='https://cryptonote.org/whitepaper.pdf' target='_blank'>CryptoNote</a> protocols. This means that every transaction origin, amount, and destination is obfuscated by default. Masari is an open source project that is fully decentralized without any central authorities, similar to bitcoin. With several CryptoNote firsts such as uncle mining via the <a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'>SECOR protocol</a>, a <a href='https://wallet.getmasari.org' target='_blank'>fully client side web wallet</a>, and PoW sharding via the <a href='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf' target='_blank'>blocktree protocol</a>, Masari is a fast, fungible, secure, private and soon-to-be efficiently scalable currency."
   paragraph_2: "With ring signatures, ring confidential transactions, and stealth addresses, every transaction origin, amount, and destination is untraceable and unlinkable. Transactions on the Masari blockchain cannot be linked to a particular user or real-world identity."
