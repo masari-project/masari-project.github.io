@@ -2,6 +2,13 @@ system: "Windows"
 order: 1
 releases:
 - type: "GUI"
+  version: "2.0.0"
+  codename: ""
+  url: "https://github.com/masari-project/masari-gui-wallet/releases/download/2.0.0/masari-gui-wallet-2.0.0.Setup.exe"
+  sha256: "A4DBFAC04FEE7DF1E76C88AA7E6C810192C8F0FB8C89B12907666B7348F9BA4E"
+  description: "Lightweight wallet based on Masari's web wallet"
+
+- type: "GUI"
   version: "0.3.1.0"
   codename: "Dandy Dromedary"
   url: "https://github.com/masari-project/masari-wallet-gui/releases/download/v0.3.1.0/masari-wallet-gui-win-x64-v0.3.1.0.zip"
