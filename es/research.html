@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Masari - ¿Qué es masari?</title>
-	<meta name="description" content="¡Masari es una criptomoneda centrada en la privacidad que puede ser utilizada por cualquier persona en cualquier parte del mundo!">
+	<title>Masari - </title>
+	<meta name="description" content="">
 	<meta name="keywords" content="masari, monero, crypto, cryptocurrency, blockchain, private money, hidden cash, cripto, criptomoneda, dinero privado, efectivo oculto" />
 	<meta name="google-site-verification" content="IJ9mTfeAp1TMjj7MNWUBBtjnLbdzoO2OkgUT-UwM3SU" />
 	<meta name="author" content="Comunidad Masari" />
@@ -102,7 +102,7 @@
 			<div class="header-text">
 				<div class="flex-row">
 					<div class="col-md-12 text-center">
-						<h1 class="light white">¿Qué es masari? </h1>
+						<h1 class="light white"> </h1>
 					</div>
 				</div>
 			</div>
@@ -110,101 +110,155 @@
 	</div>
 </div>
 
-<section id="about" class="section gray-bg">
+<!-- research -->
+<section id="research" class="section section-padded">
 	<div class="container">
-		<div class="col-md-12">
-			<div class="masari-desc">
-				<p>
-					Masari (MSR) es una moneda digital entre red de igaul a igual de prueba de trabajo (PoW) que utiliza el objetivo <a href ='https://lab.getmonero.org/pubs/MRL-0005.pdf' bien investigado y criptográficamente sólido = '_ blank'> RingCT </a> y <a href='https://cryptonote.org/whitepaper.pdf' target='_blank'> CryptoNote </a> protocolos. Esto significa que cada origen, cantidad y destino de la transacción se ofusca por defecto. Masari es un proyecto de código abierto que está completamente descentralizado sin ninguna autoridad central, similar a Bitcoin. Con varias novedades de CryptoNote, como Uncle Mining a través del <a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'> protocolo SECOR </a>, una <a href='https://wallet.getmasari.org' target='_blank'> billetera de web totalmente del lado del cliente </a>, y fragmentación PoW a través de <a href ='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf 'target =' _ blank '> protocolo blocktree </a>, Masari es un rápido, fungible, seguro, privado y pronto para ser eficientemente moneda escalable.
-				</p>
+		<div class="flex-row text-center title">
+			<p class="light">El rincón de investigación de Masari investiga la innovación en privacidad y tecnología de criptomonedas en el contexto del avance del protocolo de Masari</p>
+		</div>
+		<div class="row centered">
+			<div class="col-md-12">
+				
+				
+				
+				
+				<div class="abstract light-shadow">
+				<h4>
+					<a href="https://getmasari.org/research-papers/wwhm.pdf" target="_blank">
+					WWHM Algoritmo de Ajuste de Dificultad
+					</a>
+				</h4>
+				<p>Abstracto: Este documento detalla la implementación y la transición de la criptomoneda Masari a un algoritmo de ajuste de dificultad de media armónica ponderada para ajustar sin problemas su objetivo de dificultad para que la cadena mantenga un tiempo de bloqueo constante de dos minutos. La idea original de este algoritmo proviene de Tom Harold y fue modificada por Scott Roberts. La implementación original de C ++ fue realizada por Thaer Khawaja del Equipo Masari Core. Desde entonces, esta implementación ha sido adoptada por varios otros proyectos de criptomonedas y ha allanado el camino para otros algoritmos de ajuste de dificultad, como LWMA.</p>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="abstract light-shadow">
+				<h4>
+					<a href="https://nbviewer.jupyter.org/github/masari-project/research-corner/blob/master/secor/secor.pdf" target="_blank">
+					Resolución de consenso extendida simple: Uncle Mining en la cadena de bloques
+					</a>
+				</h4>
+				<p>Abstracto: Desde el inicio de Bitcoin y la introducción de la criptomoneda, se han desarrollado iteraciones alternativas de efectivo electrónico descentralizado entre red de igual a igual sin permiso. Sin embargo, la mayoría de estos sistemas tienen las mismas propiedades de blockchain que posteriormente conservan limitaciones de escalabilidad en cadena similares a Bitcoin. Con la introducción del protocolo SECOR, proponemos una versión simple de Uncle Mining, que tiene el propósito de acelerar las tasas de emisión de bloques y al mismo tiempo que asegura la red al recompensar a los mineros por bloques huérfanos, resolviendo en parte algunas de las limitaciones de escalabilidad inherentes de tecnología blockchain. Estas propiedades adicionales se logran al introducir el peso del bloque y diferenciarlo de la dificultad del bloque en un sistema de prueba de trabajo (PoW) basado en hash que logra el consenso a través de la cadena más pesada de la red.</p>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="abstract light-shadow">
+				<h4>
+					<a href="https://docs.google.com/viewer?url=https://github.com/masari-project/research-corner/raw/master/blocktree/blocktree.pdf" target="_blank">
+					CryptoNote Blocktree: Consenso de Metabloque Parcialmente Asíncrono
+					</a>
+				</h4>
+				<p>Abstracto: Uno de los mayores problemas para la escalabilidad de Blockchain es el tamaño del bloque, donde un bloque demasiado grande tendrá problemas de tiempo de propagación y centralización, mientras que uno demasiado pequeño hará que la red no converja en una cadena principal. En la práctica, se puede argumentar un límite inferior de aproximadamente 15 segundos, dado el manejo adecuado de los bloques huérfanos y un límite superior en el tamaño del bloque [1]. Por lo tanto, para aumentar el rendimiento de las transacciones mientras se mantiene el concepto seguro de un bloque de Prueba de trabajo (PoW) en una red descentralizada sin permiso, uno debe ser capaz de extraer múltiples bloques en paralelo. Este artículo propone Blocktree, una estructura dividida en árboles que ampliaría fundamentalmente la de la naturaleza lineal de Blockchain.</p>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-10 centered">
-				<div class="about">
-					<h2>Masari es una moneda de privacidad.</h2>
-					<div class="row padded-row">
-						<div class="col-md-8">
-							<p class="text-left">
-								Con las firmas de anillo, las transacciones confidenciales y las direcciones ocultas, el origen, el monto y el destino de cada transacción no se pueden rastrear ni vincular. Las transacciones en la cadena de bloques de Masari no se pueden vincular a un usuario en particular o una identidad del mundo real.
-							</p>
-						</div>
-						<div class="col-md-4">
-							<img src="/images/logo.png" style="width: 50%;"/>
-						</div>
-					</div>
-				</div>
-				<div class="about">
-					<h2>Masari es una moneda fungible.</h2>
-					<div class="row padded-row">
-						<div class="col-md-4">
-							<img src="/images/logo.png" style="width: 50%;"/>
-						</div>
-						<div class="col-md-8">
-							<p class="text-left">
-								Privado por defecto, Masari es una forma de moneda fungible. Los vendedores e intercambios no pueden incluir en la lista negra unidades de Masari de asociaciones de transacciones anteriores.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="about">
-					<h2>Masari es una moneda rápida.</h2>
-					<div class="row padded-row">
-						<div class="col-md-8">
-							<p class="text-left">
-								Uncle Mining (protocolo SECOR) reduce de forma segura el tiempo de bloqueo a 60 segundos, a diferencia de los 120 segundos comunes presentes en la mayoría de las monedas CryptoNote. Combinado con tarifas bajas, sus fondos se enviarán y recibirán rápidamente y a una fracción del costo.
-							</p>
-						</div>
-						<div class="col-md-4">
-							<img src="/images/logo.png" style="width: 50%;"/>
-						</div>
-					</div>
-				</div>
-				<div class="about">
-					<h2>Masari es una moneda segura.</h2>
-					<div class="row padded-row">
-						<div class="col-md-4">
-							<img src="/images/logo.png" style="width: 50%;"/>
-						</div>
-						<div class="col-md-8">
-							<p class="text-left">
-								Masari creó la primera iteración de lo que ahora es el algoritmo de dificultad LWMA. Masari utiliza una LWMA mejorada como nuestro algoritmo de dificultad para abordar el problema de la minería flash y los ajustes lentos de dificultad para mantener la minería rentable y nuestra red segura.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-12">
-			<div class="masari-desc">
-				<p>
-					Además de reducir el tiempo de bloqueo, nuestro protocolo SECOR también ayuda a agregar más 'peso' a la cadena de bloques al recompensar a los mineros que resuelven <a href ='https://www.investopedia.com/terms/o/orphan-block-cryptocurrency.asp 'target =' _ blank '> bloques huérfanos </a>, asegurando aún más la red y brindando protección adicional contra divisiones de cadena.
-				</p>
-				<p>
-					Nuestra <a href='https://github.com/masari-project/masari-webwallet' target='_blank'> billetera de web </a> también es totalmente del lado del cliente, lo que significa que puede gastar su dinero de manera segura y efectiva en cualquier lugar y en cualquier momento
-				</p>
-				<h3>Escalado eficiente</h3>
-				<p>
-					Actualmente, las monedas CryptoNote no pueden escalar de manera eficiente debido a las características de privacidad predeterminadas inherentes que ocupan una gran parte del tamaño de cada transacción. La solución de Masari a este problema es blocktree, un método que aumenta el rendimiento de las transacciones al permitir que se extraigan varios bloques en paralelo. Al utilizar este protocolo, la red podrá retener la eficiencia bajo alta utilización a medida que Masari sea más compatible y utilizado. Blocktree está actualmente en proceso.
-				</p>
-				<h3>Comunidad Masari</h3>
-				<p>
-					¿Tienes ideas sobre cómo mejorar Masari? Únase a nosotros y encuentre apoyo en un número de comunidades de Masari:
-				</p>
-				<ul>
-					<li><a href="https://discordapp.com/invite/sMCwMqs" target="_blank">Discord</a></li>
-					<li><a href="https://t.me/masaricurrency" target="_blank">Telegram</a></li>
-					<li><a href="https://www.reddit.com/r/masari/" target="_blank">Reddit</a></li>
-					<li><a href="https://twitter.com/masaricurrency" target="_blank">Twitter</a></li>
-					<li><a href="https://bitcointalk.org/index.php?topic=2159114" target="_blank">Bitcoin Talk</a></li>
-					<li><a href="https://forum.getmasari.org/" target="_blank">Masari Forum</a></li>
-					<li><a href="https://www.reddit.com/r/memesari/" target="_blank">Masari Memes</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
 </section>
-
 
 	<footer>
 		<div class="container">
