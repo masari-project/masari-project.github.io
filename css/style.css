@@ -1195,3 +1195,9 @@ text-decoration: none;
 	    text-align: center;
 	    width: 100%;
 }
+.downloads p {
+	margin: 0;
+}
+.downloads .version {
+font-size: 1em;
+}
