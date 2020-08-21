@@ -189,18 +189,21 @@ description: '{{ site.translations[site.lang].seo.meta.main.desc }}'
 					{% if release.type contains "GUI" %}
 						<p>
 							<a href="{{ release.url }}" target="_blank">{{ opsys.system }} Graphical User Interface (GUI)</a></p>						
-							<p>{% t sections.downloads.version %}: {{ release.version }} {{ release.codename }}
+							<p class="description">{{ release.description }}</p>
+							<p class="version">{% t sections.downloads.version %}: {{ release.version }} {{ release.codename }}
 						</p>
 						{% if release.sha256 != "" %} Official SHA256 Hash: <pre>{{ release.sha256 }}</pre> {% endif %}
+						<hr/>
 					{% endif %}
 					{% if release.type contains "CLI" %}
 							<p><a href="{{ release.url }}" target="_blank">{{ opsys.system }} Command Line Interface (CLI)</a></p>
-							<p>{% t sections.downloads.version %}: {{ release.version }} {{ release.codename }}
+							<p class="description">{{ release.description }}</p>
+							<p class="version">{% t sections.downloads.version %}: {{ release.version }} {{ release.codename }}
 						</p>
 						{% if release.sha256 != "" %} Official SHA256 Hash: <pre>{{ release.sha256 }}</pre> {% endif %}
 					{% endif %}
 					{% if release.type contains "Play" %}
-						<a href="{{ release.url }}" target="_blank"><img src="/images/external/google_play_store_badge.png" width=50% alt="{% t seo.images.android %}"></a><p>{% t sections.downloads.version %}: {{ release.version }} {{ release.codename }}
+						<a href="{{ release.url }}" target="_blank"><img src="/images/external/google_play_store_badge.png" width=50% alt="{% t seo.images.android %}"></a><p class="version">{% t sections.downloads.version %}: {{ release.version }} {{ release.codename }}
 						</p>
 					{% endif %}
 				{% endfor %}
