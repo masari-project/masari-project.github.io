@@ -1,5 +1,12 @@
 system: "Linux"
 releases:
+- type: "GUI"
+  version: "2.0.0"
+  codename: ""
+  url: "https://github.com/masari-project/masari-gui-wallet/releases/download/2.0.0/masari-gui-wallet_2.0.0_amd64.deb"
+  sha256: "5C6E8461DD28A04490DA3AC5199EAEE7083586974B60071BAE5563123F93E7A8"
+  description: "Lightweight wallet based on Masari's web wallet (Debian package)"
+  
 - type: "CLI"
   version: "0.3.1.2"
   codename: "Dandy Dromedary"
