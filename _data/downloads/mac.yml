@@ -2,6 +2,13 @@ system: "Apple"
 order: 3
 releases:
 - type: "GUI"
+  version: "2.0.0"
+  codename: ""
+  url: "https://github.com/masari-project/masari-gui-wallet/releases/download/2.0.0/masari-gui-wallet_2.0.0.dmg"
+  sha256: ""
+  description: "Lightweight wallet based on Masari's web wallet"
+  
+- type: "GUI"
   version: "0.3.1.0"
   codename: "Dandy Dromedary"
   url: "https://github.com/masari-project/masari-wallet-gui/releases/download/v0.3.1.0/masari-wallet-gui-mac-v0.3.1.0.zip"
