@@ -1,0 +1,5 @@
+name: "Research"
+url: "/research"
+icon: "research.png"
+order: 8
+enabled: 1
