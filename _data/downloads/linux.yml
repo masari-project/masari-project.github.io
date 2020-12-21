@@ -1,6 +1,6 @@
 system: "Linux"
 releases:
-- type: "GUI"
+- type: "LGUI"
   version: "2.0.0"
   codename: ""
   url: "https://github.com/masari-project/masari-gui-wallet/releases/download/2.0.0/masari-gui-wallet_2.0.0_amd64.deb"
