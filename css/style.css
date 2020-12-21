@@ -1201,11 +1201,3 @@ text-decoration: none;
 .downloads .version {
 font-size: 1em;
 }
-/* a little promo */
-.revain_fixed {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	z-index: 3;
-	border: none;
-}
