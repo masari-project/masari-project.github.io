@@ -34,34 +34,34 @@ description: '{{ site.translations[site.lang].seo.meta.main.desc }}'
 									{% for dl in opsys1.releases %}
 										{% if dl.type contains "CLI" %} 
 											{% assign corewin = dl.url %}
-											{% assign coreVerWin = dl.version | append: ' ' | append: dl.codename %}
+											{% assign coreVerWin = dl.codename | append: ' v' | append: dl.version  %}
 										{% endif %}
 									{% endfor %}
 								{% when "Linux" %}
 									{% for dl in opsys1.releases %}
 										{% if dl.type contains "CLI" %} 
 											{% assign corelin = dl.url %}
-											{% assign coreVerLinux = dl.version | append: ' ' | append:  dl.codename %}
+											{% assign coreVerLinux = dl.codename | append: ' v' | append: dl.version  %}
 										{% endif %}
 									{% endfor %}
 								{% when "Apple" %}
 									{% for dl in opsys1.releases %}
 										{% if dl.type contains "CLI" %} 
 											{% assign coremac = dl.url %}
-											{% assign coreVerMac = dl.version | append: ' ' | append:  dl.codename  %}
+											{% assign coreVerMac = dl.codename | append: ' v' | append: dl.version  %}
 										{% endif %}
 									{% endfor %}
 								{% when "Android" %}
 									{% for dl in opsys1.releases %}
 										{% if dl.type contains "Play Store" %} 
 											{% assign coredroid = dl.url %}
-											{% assign coreVerAndroid = dl.version | append: ' ' | append:  dl.codename %}
+											{% assign coreVerAndroid = dl.codename | append: ' v' | append: dl.version  %}
 										{% endif %}
 									{% endfor %}
 							{% endcase %}
 						{% endfor %}
 
-						<a id="downloadbutton" class="download masari btn-primary btn-lg" data-win-dl="{{ corewin }}" data-win-dl-ver="v{{ coreVerWin }}" data-linux-dl="{{ corelin }}" data-linux-dl-ver="v{{ coreVerLinux }}" data-android-dl="{{ coredroid }}" data-android-dl-ver="v{{ coreVerAndroid }}" data-mac-dl="{{ coremac }}" data-mac-dl-ver="v{{ coreVerMac }}" href="#downloads">
+						<a id="downloadbutton" class="download masari btn-primary btn-lg" data-win-dl="{{ corewin }}" data-win-dl-ver="{{ coreVerWin }}" data-linux-dl="{{ corelin }}" data-linux-dl-ver="{{ coreVerLinux }}" data-android-dl="{{ coredroid }}" data-android-dl-ver="{{ coreVerAndroid }}" data-mac-dl="{{ coremac }}" data-mac-dl-ver="{{ coreVerMac }}" href="#downloads">
 							{% capture download %}
 								{% t banner.download %}
 							{% endcapture %}
