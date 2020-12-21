@@ -32,21 +32,21 @@ description: '{{ site.translations[site.lang].seo.meta.main.desc }}'
 							{% case operatingsystem %}
 								{% when "Windows" %}
 									{% for dl in opsys1.releases %}
-										{% if dl.type contains "CLI" %} 
+										{% if dl.type contains "LGUI" %} 
 											{% assign corewin = dl.url %}
 											{% assign coreVerWin = dl.codename | append: ' v' | append: dl.version  %}
 										{% endif %}
 									{% endfor %}
 								{% when "Linux" %}
 									{% for dl in opsys1.releases %}
-										{% if dl.type contains "CLI" %} 
+										{% if dl.type contains "LGUI" %} 
 											{% assign corelin = dl.url %}
 											{% assign coreVerLinux = dl.codename | append: ' v' | append: dl.version  %}
 										{% endif %}
 									{% endfor %}
 								{% when "Apple" %}
 									{% for dl in opsys1.releases %}
-										{% if dl.type contains "CLI" %} 
+										{% if dl.type contains "LGUI" %} 
 											{% assign coremac = dl.url %}
 											{% assign coreVerMac = dl.codename | append: ' v' | append: dl.version  %}
 										{% endif %}
