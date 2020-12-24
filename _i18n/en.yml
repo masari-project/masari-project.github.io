@@ -26,7 +26,7 @@ sections:
         text: "Scalability initiatives include the SECOR and Blocktree protocols"
       block2:
         heading: "Community Developed"
-        text: "Developed and funded by community volunteers"
+        text: "Developed and funded by community volunteers. <a href='/how-to-help-masari' target='_blank'>See how to help Masari.</a>"
       block3:
         heading: "Simple"
         text: "Cross-platform supported and easy to use"
