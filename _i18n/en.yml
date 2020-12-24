@@ -145,4 +145,14 @@ contributing:
   how_4_desc: "Marketing Masari does not always need to come from any of the core team. Creating memes, talking about trading $MSR or sharing Masari content on social media are all different ways you can help with Masari marketing! <a href='https://github.com/masari-project/Masari-Marketing' target='_blank'>View our marketing material on Github!</a>"
   how_5: "Donating"
   how_5_desc: "Masari did not start off with an ICO, IEO or any sort of fundraising and did not have a planned premine. We depend on the community to fund servers, services and exchange listings. We have set up the following wallets to collect donations from those who seek to help Masari financially. Your donation will help fund development, pay for servers and services and may be used for marketing and/or exchange listings."
-  
+  bitcoin_heading: "Bitcoin"
+  bitcoin_donate: "Donations of Bitcoin to the Masari project may be sent here:"
+  monero_heading: "Monero"
+  monero_donate: "Donations of Monero to the Masari project may be sent here:"
+  masari_heading: "Masari"
+  masari_donate: "Donations of Masari to the Masari project may be sent here:"
+
+donate:
+  bitcoin: "bc1qqxwnsgr77k6feeutl0sqs65lsdgpg232cfcs62"
+  monero: "45DbVEMDrpKBJ8oYrhxqe29q5pgZQsXMx7gRxTUnioyMhP7CkgQdfqdAAV64hETFGQ995KgxTtmTSGC5GnKor8hsMFvpj3d"
+  masari: "5kmaeBqMbrjXBz1Y2QHB43jBbJeX9d8DcfAspwhVGqSuKF2giASJWCWEPNVMswnemS185tP8otHQ8Ehs3NXMTmpT8YriGfx"
