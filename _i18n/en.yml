@@ -85,6 +85,9 @@ seo:
     research:
       title: "Masari Research Corner"
       desc: "Masari has brought innovative ideas to the cryptonote space such as Weighted-Weighted Harmonic Mean (improved to become LWMA), uncle mining (SECOR) as well as the idea of blocktree and simple private tokens. THese are our white papers regarding those ideas."
+    contributing:
+      title: "How to help Masari"
+      desc: "Masari is an open source project and has many places anyone can contribute. Read the many ways you can help below."
 about:
   paragraph_1: "Masari (MSR) is a proof of work (PoW) peer-to-peer internet currency using the well researched and cryptographically sound <a href='https://lab.getmonero.org/pubs/MRL-0005.pdf' target='_blank'>RingCT</a> and <a href='https://cryptonote.org/whitepaper.pdf' target='_blank'>CryptoNote</a> protocols. This means that every transaction origin, amount, and destination is obfuscated by default. Masari is an open source project that is fully decentralized without any central authorities, similar to bitcoin. With several CryptoNote firsts such as uncle mining via the <a href='https://github.com/masari-project/research-corner/blob/master/secor/secor.pdf' target='_blank'>SECOR protocol</a>, a <a href='https://wallet.getmasari.org' target='_blank'>fully client side web wallet</a>, and PoW sharding via the <a href='https://github.com/masari-project/research-corner/blob/master/blocktree/blocktree.pdf' target='_blank'>blocktree protocol</a>, Masari is a fast, fungible, secure, private and soon-to-be efficiently scalable currency."
   paragraph_2: "With ring signatures, ring confidential transactions, and stealth addresses, every transaction origin, amount, and destination is untraceable and unlinkable. Transactions on the Masari blockchain cannot be linked to a particular user or real-world identity."
@@ -130,3 +133,16 @@ exchanges:
     desc: "Launched in Sep 2018, GJ is a centralized exchange based in Seychelles. GJ aims to cater to a Chinese speaking audience."
 pairs: "Pairs"
 visit: "Visit"
+contributing:
+  intro: "Masari depends on people like you. With your efforts, and the efforts of others, Masari will grow and help bring financial privacy to all."
+  how_1: "Development"
+  how_1_desc: "Masari has many different pieces of software that keeps it running. From our core blockchain software to our wallets and our own block explorer and the small projects in between, Masari has plenty of code that you can contribute to! <a href='https://github.com/masari-project/' target='_blank'>View our projects on Github.</a>"
+  how_2: "Running a node"
+  how_2_desc: "One of the best contributions that everyone can do for Masari is to run an active up-to-date Masari node! By running a node, you are helping to strengthen the network in several ways. For example, the more people who run nodes, the more nodes it takes for attackers to try to launch an attack. Also, you help increase the speed in which other users download the blockchain."
+  how_3: "Mining"
+  how_3_desc: "Aside from running a node, mining Masari is another way you can help! By mining Masari, you are helping to decentralize the process of transactions being verified and keeping the network secure."
+  how_4: "Marketing"
+  how_4_desc: "Marketing Masari does not always need to come from any of the core team. Creating memes, talking about trading $MSR or sharing Masari content on social media are all different ways you can help with Masari marketing! <a href='https://github.com/masari-project/Masari-Marketing' target='_blank'>View our marketing material on Github!</a>"
+  how_5: "Donating"
+  how_5_desc: "Masari did not start off with an ICO, IEO or any sort of fundraising and did not have a planned premine. We depend on the community to fund servers, services and exchange listings. We have set up the following wallets to collect donations from those who seek to help Masari financially. Your donation will help fund development, pay for servers and services and may be used for marketing and/or exchange listings."
+  

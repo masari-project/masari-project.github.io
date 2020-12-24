@@ -1201,3 +1201,11 @@ text-decoration: none;
 .downloads .version {
 font-size: 1em;
 }
+
+.donate img {
+	width: 100%;
+}
+
+.donate p {
+    word-wrap: anywhere;
+}
