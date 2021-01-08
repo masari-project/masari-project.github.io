@@ -135,6 +135,8 @@ pairs: "Pairs"
 visit: "Visit"
 contributing:
   intro: "Masari depends on people like you. With your efforts, and the efforts of others, Masari will grow and help bring financial privacy to all."
+  how_0: "Community Discussions"
+  how_0_desc: "Masari community members, also known as Masarians, are located in several places and have discussions at various times of the day regarding Masari. Our most active community discussions happen on our <a href='https://discord.gg/sMCwMqs' target='_blank'>Discord</a>. You may join our Discord server at any time to ask questions regarding mining and development or to propose ideas or get help with Masari."
   how_1: "Development"
   how_1_desc: "Masari has many different pieces of software that keeps it running. From our core blockchain software to our wallets and our own block explorer and the small projects in between, Masari has plenty of code that you can contribute to! <a href='https://github.com/masari-project/' target='_blank'>View our projects on Github.</a>"
   how_2: "Running a node"
