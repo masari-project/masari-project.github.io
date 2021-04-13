@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Masari - How does Masari differ from Monero?</title>
+	<meta name="description" content="Masari is a fork of Monero that contains several changes that Monero does not have. These changes make Masari a more unique project.">
+	<meta name="keywords" content="masari, 门罗币, 加密, 加密货币, 数字货币，虚拟货币, 区块链, 私有财产, 秘密转账" />
+	<meta name="google-site-verification" content="IJ9mTfeAp1TMjj7MNWUBBtjnLbdzoO2OkgUT-UwM3SU" />
+	<meta name="author" content="Masari 社区" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#545454">
+	<meta name="msapplication-TileColor" content="#545454">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="shortcut icon" href="/images/favicons/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/animate.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+
+<div class="preloader">
+	<img src="/images/loader.gif" alt="Preloader image">
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+	<div class="container">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			Menu
+			<i class="fa fa-bars"></i>
+		</button>
+		<a class="navbar-brand js-scroll-trigger" href="/#home"><img class="navbar-logo" src="/images/icons/logo.png" data-active-url="/images/icons/logo.png" alt="数字货币 Masari"></a>
+		<span class="navbar-logo-text">
+			
+			<a href="/cn/#home">masari</a>
+			
+			</span>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					
+					<a href="/cn/#home" data-href="#home">首页</a>
+					
+				</li>
+				<li class="nav-item">
+					
+					<a href="/cn/#about" data-href="#about">关于</a>
+					
+				</li>
+				<li class="nav-item">
+					
+					<a href="/cn/#resources" data-href="#resources">资源</a>
+					
+				</li>
+				<li class="nav-item">
+					
+					<a href="/cn/#downloads" data-href="#downloads">下载</a>
+					
+				</li>
+				<li class="nav-item">
+					
+					<a href="/cn/roadmap" data-href="#roadmap">规划</a>
+					
+				</li>
+				<li class="nav-item">
+					<div class="lang-dropdown">
+						<button class="langbtn"> 语言 <i class=" fa fa-caret-down lightblue" aria-hidden="true"></i></button>
+						<div class="lang-dropdown-child">
+							<a href="/" class="langs">英文</a>
+							<a href="/cn" class="langs">中文</a>
+							<a href="/es" class="langs">西班牙文</a>
+							<a href="/ru" class="langs">Русский</a>
+							<!-- add language here. here's an example 
+							  <a href="/es">西班牙文</a>
+							-->
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div id="top"></div>
+
+<div id="top-area">
+	<div class="container">
+		<div class="table">
+			<div class="header-text">
+				<div class="flex-row">
+					<div class="col-md-12 text-center">
+						<h1 class="light white">How does Masari differ from Monero? </h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section id="diffs_xmr" class="section gray-bg">
+	<div class="container">
+		<div class="col-md-12">
+			<p>Masari is a fork of the Monero project, and has incorporated improvements from the Monero code base along the way.  Since Monero itself is often heralded as the leading privacy coin, it is worth asking what makes Masari unique from Monero. Here are some points of difference, broken out in the areas of Technology, Privacy, Usability and Community.</p>
+
+			<div class="row">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title text-center">Technology</h5>
+						<p class="card-text">Masari's underlying technology has a few differences from Monero. Masari still uses the CryptoNight Proof-of-work (PoW) algorithm, while Monero has moved to the RandomX PoW.</p>
+						<p class="card-text">For a small project with a small development team, Masari has shown the ability to innovate and improve its technology over the Monero code base. Masari implemented an improved difficulty adjustment algorithm which allows the blockchain to maintain a steady block creation time, even during traffic volume spikes. This early work has become the LWMA difficulty algorithm and has been incorporated by other coins.</p>
+						<p class="card-text">The Masari project has also achieved a shorter block creation time of 60 seconds which is half that of Monero and most other CryptoNote / Monero-based projects. This is accomplished by using the Simple Extended Consensus Resolution (SECOR) protocol.  This unique protocol maintains security and protection against chainsplits even with the faster block emissions, allowing Masari to maintain lower transaction times and costs as the coin scales to wider use.  SECOR uses a concept known as 'uncle mining' which validates and reduces the number of 'orphan' blocks on the chain. With SECOR enabled, Masari could lower the block time to roughly 15 seconds and still maintain a healthy network.</p>
+						<p class="card-text">Finally, the lead developer has proposed a tree-partitioned structure, called Blocktree.  This modified structure would allow multiple blocks to be mined in parallel.  The result would maintain the secure concepts of a decentralized consensus blockchain while greatly increasing transaction throughput.  Currently, Masari does not have the transaction volume to require Blocktree, but the basic design has been documented for developers to work on.  If you are a C++ developer looking for a challenge, you may be able to help with this!</p>
+						<p class="card-text">On the flipside, Monero has improved their technology in a few ways that have not been incorporated by the Masari project.  This includes enhancements to prevent privacy attacks during transaction propagation (the Dandelion++ protocol), and to reduce transaction size and verification times (CLSAG signature).  These enhancements will be considered by the Masari team for future release.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-3">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title text-center">Privacy</h5>
+						<p class="card-text">Masari is a slightly more private blockchain than Monero, since it has employed Ring Confidential Transactions (Ring CT) from the beginning. Ring CT is a method that not only obscures the sending address of a transaction, but also the amount of the transaction.  The Monero blockchain's early years of transactions allow the exact transaction amounts to be seen, and it has been shown that a blockchain analyzer can accurately trace coins to specific early transactions and possible wallet addresses.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-3">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title text-center">Usabilty</h5>
+						<p class="card-text">Masari has a great client-side wallet available as a Web wallet, as well as mobile and desktop versions.  Most Masari users feel that this wallet is more user friendly than Monero's native wallet options for a client-side wallet (keeping your wallet transactions local to your own device). The Masari team plans to look at ways to make the coin more user-friendly and accessible to non-technical users.  If you have skills in mobile or Web development technologies, you may be able to help with these goals!</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-3">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title text-center">Community</h5>
+						<p class="card-text">Like Monero, Masari has a solid community infrastructure set up for the project which allows communication and collaboration between community members.  Unlike Monero, the Masari community is small.  There are some negatives and positives to this.</p>
+						<p class="card-text">Since Masari has a small developer team, it lags behind Monero when deciding to implement any desirable improvements that Monero has added. As a result of being a small project, there are fewer exchanges and 3rd party wallets which support Masari.</p>
+						<p class="card-text">On the positive side, having a small community around an innovative product makes it possible to jump in and make an impact in a short time frame.  Anyone with an interest in using and growing their skills as a developer, content creator, marketer, etc. can quickly find a place to pitch in and gain experience with the world of blockchain and cryptocurrency!</p>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+	</div>
+</section>
+
+	<footer>
+		<div class="container">
+			<!-- ctg disabled row until content is ready. <div class="row">
+				<div class="col-md-8">
+					<h3>Exchanges</h3>
+					<div class="col-sm-8">
+						<p>Exchange bullshit removed. Suggestions are open.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h3>Subscribe to Masari</h3>
+					<p>Masari subscribers get the latest news regarding releases, hot fixes and project updates emailed to their inbox. Sign up box soon.</p>
+				</div>
+
+			</div> -->
+			<div class="row bottom-footer text-center text-center-mobile">
+				<div class="col-sm-12">
+					<div class="col-sm-12 text-center text-center-mobile">
+						<ul class="social-footer">
+	<li>
+		<a href="https://bitcointalk.org/index.php?topic=2159114">
+			<i class="fab fa-btc"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://www.twitter.com/masaricurrency">
+			<i class="fab fa-twitter"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://github.com/masari-project">
+			<i class="fab fa-github"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://medium.com/@officialmasari">
+			<i class="fab fa-medium"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://t.me/masaricurrency">
+			<i class="fab fa-telegram"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://discord.gg/sMCwMqs">
+			<i class="fab fa-discord"></i>
+		</a>
+	</li>
+	<li>
+		<a href="https://reddit.com/r/masari">
+			<i class="fab fa-reddit"></i>
+		</a>
+	</li>
+</ul>
+					</div>
+					<p>&copy; 2017-2021 All Rights Reserved. The Masari Project</p>
+					<p><a href="/legal">Legal</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Holder for mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="arrow_up"></i></a>
+	</div>
+
+	<!-- lets get to the top -->
+	<a href="#top" class="top-button hidden"><i class="fas fa-chevron-up"></i><p>Top</p></a>
+	<!-- Scripts -->
+	<script src="/js/jquery-3.4.1.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/jquery.onepagenav.min.js"></script>
+	<script src="/js/main.js"></script>
+
+
+
+</body>
+</html>
