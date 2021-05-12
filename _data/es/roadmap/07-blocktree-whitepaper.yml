@@ -1,7 +1,0 @@
-quarter:
-year: "2019"
-title: "Blocktree Whitepaper"
-desc: "En espera de más investigación, esto investiga el potencial de fragmentación de PoW del protocolo CryptoNote aprovechando las salidas de clave pública de una sola vez para particionar/fragmentar las transacciones en un árbol de bloques escalable."
-alignment: "right"
-order: 8
-complete: "true"

@@ -1,7 +1,0 @@
-quarter: "1"
-year: "2018"
-title: "多重签名 & 多个子地址"
-desc: "多重签名指的是需要多个密钥来授权一笔交易；多个子地址则令任何交易保持匿名性。"
-alignment: "left"
-order: 3
-complete: "true"

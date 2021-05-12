@@ -1,7 +1,7 @@
 quarter:
-year:
+year: "2022"
 title: "Simple Private Tokens (SPT)"
 desc: "Without smart contracts, this features the ability to issue private digital assets in the network easily by the end user, with any computational logic using interchangeable off-chain architecture."
 alignment: "right"
-order: 10
+order: 17
 complete:

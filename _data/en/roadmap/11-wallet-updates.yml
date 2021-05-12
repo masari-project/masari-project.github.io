@@ -1,0 +1,7 @@
+quarter:
+year: "2021"
+title: "Wallet Updates"
+desc: "Post rebase, our unique client-side privacy wallets will receive updates in which we will update our bulletproofs code (a type of range proof) reducing the cost of fees for transactions sent using these wallets. An additional UI for mobile will also be made available."
+alignment: "right"
+order: 13
+complete:

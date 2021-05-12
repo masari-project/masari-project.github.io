@@ -1,0 +1,7 @@
+quarter:
+year: "2022"
+title: "Blocktree Implementation"
+desc: "The key piece to making Masari the most scalable private blockchain. View the Blocktree whitepaper <a href='https://docs.google.com/viewer?url=https://github.com/masari-project/research-corner/raw/master/blocktree/blocktree.pdf' target='_blank'>here</a>"
+alignment: "left"
+order: 16
+complete:
