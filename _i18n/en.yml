@@ -125,9 +125,6 @@ exchanges:
   southxchange:
     title: "SouthXChange"
     desc: "SouthXchange is a centralized cryptocurrency exchange located in Argentina. SouthXchange is established in year 2015."
-  bisq:
-    title: "Bisq"
-    desc: "Bisq is a decentralized cryptocurrency exchange. Bisq was originally known as Bitsquare when it launched in 2014."
   gj:
     title: "GJ.com"
     desc: "Launched in Sep 2018, GJ is a centralized exchange based in Seychelles. GJ aims to cater to a Chinese speaking audience."
